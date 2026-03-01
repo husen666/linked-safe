@@ -1,0 +1,11 @@
+.env.staging
+.env.prod
+
+site/
+mysql-init/
+ssl/
+tmp/
+
+*.tar.gz
+*.zip
+bak/

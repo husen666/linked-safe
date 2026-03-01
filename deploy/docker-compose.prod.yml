@@ -1,0 +1,44 @@
+services:
+  db:
+    image: mysql:8.0
+    container_name: linkedsafe-prod-db
+    restart: unless-stopped
+    env_file:
+      - ./.env.prod
+    command: --default-authentication-plugin=mysql_native_password
+    volumes:
+      - prod_db_data:/var/lib/mysql
+      - ./mysql-init/01-init.sql:/docker-entrypoint-initdb.d/01-init.sql:ro
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-uroot", "-p${MYSQL_ROOT_PASSWORD}"]
+      interval: 10s
+      timeout: 5s
+      retries: 30
+
+  wordpress:
+    image: wordpress:6.8-php8.2-apache
+    container_name: linkedsafe-prod-wp
+    restart: unless-stopped
+    env_file:
+      - ./.env.prod
+    depends_on:
+      db:
+        condition: service_healthy
+    volumes:
+      - ./site:/var/www/html
+
+  nginx:
+    image: nginx:1.27-alpine
+    container_name: linkedsafe-prod-nginx
+    restart: unless-stopped
+    depends_on:
+      - wordpress
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./deploy/nginx/prod.conf:/etc/nginx/conf.d/default.conf:ro
+      - ./ssl/prod:/etc/nginx/ssl:ro
+
+volumes:
+  prod_db_data:

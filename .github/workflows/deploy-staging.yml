@@ -1,0 +1,36 @@
+name: Deploy Staging
+
+on:
+  push:
+    branches:
+      - develop
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to staging server
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.STAGING_HOST }}
+          username: ${{ secrets.STAGING_USER }}
+          key: ${{ secrets.STAGING_SSH_KEY }}
+          port: ${{ secrets.STAGING_PORT }}
+          script: |
+            set -e
+            DEPLOY_DIR="${{ secrets.STAGING_DEPLOY_DIR }}"
+            REPO_URL="https://github.com/husen666/linked-safe.git"
+            BRANCH="develop"
+
+            if [ ! -d "$DEPLOY_DIR/.git" ]; then
+              mkdir -p "$(dirname "$DEPLOY_DIR")"
+              git clone "$REPO_URL" "$DEPLOY_DIR"
+            fi
+
+            cd "$DEPLOY_DIR"
+            git fetch --all --tags --prune
+            git checkout "$BRANCH"
+            git pull --ff-only origin "$BRANCH"
+            chmod +x deploy/scripts/release-deploy.sh
+            ./deploy/scripts/release-deploy.sh staging
