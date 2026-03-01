@@ -6,6 +6,7 @@
 - 正式环境：`linked-safe.com`（证书后补）
 
 发布规范请参考：`doc/release-flow.md`
+命令速查请参考：`doc/deploy-commands.md`
 
 当前仓库已具备以下部署资产：
 
@@ -61,6 +62,8 @@ cp deploy/.env.staging.example .env.staging
 
 - `MYSQL_PASSWORD`
 - `MYSQL_ROOT_PASSWORD`
+- `REDIS_PASSWORD`
+- `WP_REDIS_PASSWORD`（建议与 `REDIS_PASSWORD` 一致）
 
 ### 3.3 执行首次部署脚本
 
@@ -92,6 +95,8 @@ cp deploy/.env.prod.example .env.prod
    - `CERT_ZIP=bak/prod/你的正式证书zip文件名`
    - `MYSQL_PASSWORD`
    - `MYSQL_ROOT_PASSWORD`
+   - `REDIS_PASSWORD`
+   - `WP_REDIS_PASSWORD`（建议与 `REDIS_PASSWORD` 一致）
 4. 如正式证书文件名与默认不一致，修改：
    - `deploy/nginx/prod.conf` 中 `ssl_certificate`、`ssl_certificate_key` 路径
 
@@ -228,5 +233,31 @@ docker compose --env-file .env.staging -f deploy/docker-compose.staging.yml exec
 验证 Redis 连接：
 
 ```bash
-docker compose --env-file .env.staging -f deploy/docker-compose.staging.yml exec -T redis redis-cli ping
+docker compose --env-file .env.staging -f deploy/docker-compose.staging.yml exec -T redis sh -c 'redis-cli -a "$REDIS_PASSWORD" ping'
+```
+
+验证 Redis 命中情况（执行两次对比）：
+
+```bash
+# 第1次：记录基线
+docker compose --env-file .env.staging -f deploy/docker-compose.staging.yml exec -T redis sh -c 'redis-cli -a "$REDIS_PASSWORD" info stats | egrep "keyspace_hits|keyspace_misses|total_commands_processed"'
+
+# 打开站点前后台各几次后，再执行第2次
+docker compose --env-file .env.staging -f deploy/docker-compose.staging.yml exec -T redis sh -c 'redis-cli -a "$REDIS_PASSWORD" info stats | egrep "keyspace_hits|keyspace_misses|total_commands_processed"'
+```
+
+查看 Redis 当前缓存键数量：
+
+```bash
+docker compose --env-file .env.staging -f deploy/docker-compose.staging.yml exec -T redis sh -c 'redis-cli -a "$REDIS_PASSWORD" dbsize'
+```
+
+服务器本地放弃修改并强制拉取最新代码：
+
+```bash
+cd /opt/linked-safe
+git fetch origin
+git reset --hard origin/main
+git clean -fd
+git pull
 ```

@@ -20,9 +20,16 @@ services:
     image: redis:7-alpine
     container_name: linkedsafe-staging-redis
     restart: unless-stopped
-    command: ["redis-server", "--appendonly", "yes", "--maxmemory", "512mb", "--maxmemory-policy", "allkeys-lru"]
+    env_file:
+      - ../.env.staging
+    command: ["sh", "-c", "exec redis-server --appendonly yes --maxmemory 512mb --maxmemory-policy allkeys-lru --requirepass \"$REDIS_PASSWORD\""]
     volumes:
       - staging_redis_data:/data
+    healthcheck:
+      test: ["CMD-SHELL", "redis-cli -a \"$REDIS_PASSWORD\" ping | grep -q PONG"]
+      interval: 10s
+      timeout: 5s
+      retries: 30
 
   wordpress:
     image: wordpress:6.8-php8.2-apache
@@ -34,17 +41,23 @@ services:
       db:
         condition: service_healthy
       redis:
-        condition: service_started
+        condition: service_healthy
     volumes:
       - ../site:/var/www/html
       - ./php/custom.ini:/usr/local/etc/php/conf.d/zz-custom.ini:ro
+    healthcheck:
+      test: ["CMD-SHELL", "php -r 'exit(@fopen(\"http://127.0.0.1/wp-login.php\",\"r\")?0:1);'"]
+      interval: 15s
+      timeout: 8s
+      retries: 20
 
   nginx:
     image: nginx:1.27-alpine
     container_name: linkedsafe-staging-nginx
     restart: unless-stopped
     depends_on:
-      - wordpress
+      wordpress:
+        condition: service_healthy
     ports:
       - "80:80"
       - "443:443"
@@ -52,6 +65,11 @@ services:
       - ./nginx/performance.conf:/etc/nginx/conf.d/00-performance.conf:ro
       - ./nginx/staging.conf:/etc/nginx/conf.d/default.conf:ro
       - ../ssl/staging:/etc/nginx/ssl:ro
+    healthcheck:
+      test: ["CMD-SHELL", "wget -q -O /dev/null http://127.0.0.1/ || exit 1"]
+      interval: 15s
+      timeout: 5s
+      retries: 20
 
 volumes:
   staging_db_data:
