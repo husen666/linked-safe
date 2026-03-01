@@ -191,6 +191,7 @@ docker compose --env-file .env.staging -f deploy/docker-compose.staging.yml down
 - PHP: `deploy/php/custom.ini`
 - MySQL: `deploy/mysql/my.cnf`
 - Nginx: `deploy/nginx/performance.conf`
+- Redis: compose 内置 `redis:7-alpine`（对象缓存）
 
 在服务器更新代码后执行：
 
@@ -217,4 +218,15 @@ docker compose --env-file .env.staging -f deploy/docker-compose.staging.yml exec
 
 # Nginx
 docker compose --env-file .env.staging -f deploy/docker-compose.staging.yml exec -T nginx nginx -T | grep -E "gzip on|keepalive_timeout|proxy_read_timeout"
+```
+
+启用 WordPress 对象缓存（后台）：
+
+1. 安装并启用插件 `Redis Object Cache`（若未安装）。
+2. WordPress 后台 -> `设置` -> `Redis` -> 点击 `Enable Object Cache`。
+
+验证 Redis 连接：
+
+```bash
+docker compose --env-file .env.staging -f deploy/docker-compose.staging.yml exec -T redis redis-cli ping
 ```

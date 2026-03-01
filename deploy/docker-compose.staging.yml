@@ -16,6 +16,14 @@ services:
       timeout: 5s
       retries: 30
 
+  redis:
+    image: redis:7-alpine
+    container_name: linkedsafe-staging-redis
+    restart: unless-stopped
+    command: ["redis-server", "--appendonly", "yes", "--maxmemory", "512mb", "--maxmemory-policy", "allkeys-lru"]
+    volumes:
+      - staging_redis_data:/data
+
   wordpress:
     image: wordpress:6.8-php8.2-apache
     container_name: linkedsafe-staging-wp
@@ -25,6 +33,8 @@ services:
     depends_on:
       db:
         condition: service_healthy
+      redis:
+        condition: service_started
     volumes:
       - ../site:/var/www/html
       - ./php/custom.ini:/usr/local/etc/php/conf.d/zz-custom.ini:ro
@@ -45,3 +55,4 @@ services:
 
 volumes:
   staging_db_data:
+  staging_redis_data:

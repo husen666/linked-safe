@@ -144,6 +144,7 @@ Built-in tuning files:
 - `deploy/php/custom.ini`
 - `deploy/mysql/my.cnf`
 - `deploy/nginx/performance.conf`
+- Redis object cache service in compose (`redis:7-alpine`)
 
 After pulling latest changes, recreate services:
 

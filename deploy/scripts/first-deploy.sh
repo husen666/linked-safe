@@ -35,6 +35,12 @@ source "$ENV_FILE"
 : "${CERT_ZIP:?CERT_ZIP is required in ${ENV_FILE}}"
 : "${APP_URL:?APP_URL is required in ${ENV_FILE}}"
 
+WP_REDIS_HOST_VAL="${WP_REDIS_HOST:-redis}"
+WP_REDIS_PORT_VAL="${WP_REDIS_PORT:-6379}"
+WP_REDIS_DATABASE_VAL="${WP_REDIS_DATABASE:-0}"
+WP_REDIS_PREFIX_VAL="${WP_REDIS_PREFIX:-linkedsafe_${ENVIRONMENT}:}"
+WP_CACHE_KEY_SALT_VAL="${WP_CACHE_KEY_SALT:-linkedsafe_${ENVIRONMENT}:}"
+
 [[ -f "$SITE_ARCHIVE" ]] || { echo "Missing file: $SITE_ARCHIVE (upload backup file to server bak/ directory first)"; exit 1; }
 [[ -f "$SQL_ZIP" ]] || { echo "Missing file: $SQL_ZIP (upload backup file to server bak/ directory first)"; exit 1; }
 [[ -f "$CERT_ZIP" ]] || { echo "Missing file: $CERT_ZIP (upload certificate zip to server bak/ directory first)"; exit 1; }
@@ -55,10 +61,9 @@ unzip -oq "$CERT_ZIP" -d "ssl/${ENVIRONMENT}"
 WP_CONFIG="site/wp-config.php"
 if [[ -f "$WP_CONFIG" ]]; then
   sed -i "s/define( 'DB_HOST', 'localhost' );/define( 'DB_HOST', 'db:3306' );/g" "$WP_CONFIG" || true
+  sed -i "/define( 'WP_MEMORY_LIMIT'/d;/define( 'WP_MAX_MEMORY_LIMIT'/d;/define( 'WP_HOME'/d;/define( 'WP_SITEURL'/d;/define( 'WP_CACHE'/d;/define( 'WP_REDIS_HOST'/d;/define( 'WP_REDIS_PORT'/d;/define( 'WP_REDIS_DATABASE'/d;/define( 'WP_REDIS_PREFIX'/d;/define( 'WP_CACHE_KEY_SALT'/d;/define( 'DISABLE_WP_CRON'/d;/HTTP_X_FORWARDED_PROTO/d;/define( 'WP_DEBUG', false );/d;/define('WP_DEBUG', false);/d" "$WP_CONFIG"
 
-  if ! grep -q "define( 'WP_HOME'" "$WP_CONFIG"; then
-    sed -i "/stop editing/i define( 'WP_HOME', '${APP_URL}' );\ndefine( 'WP_SITEURL', '${APP_URL}' );" "$WP_CONFIG"
-  fi
+  sed -i "/stop editing/i if (isset(\$_SERVER['HTTP_X_FORWARDED_PROTO']) \&\& \$_SERVER['HTTP_X_FORWARDED_PROTO'] === 'https') { \$_SERVER['HTTPS'] = 'on'; }\ndefine( 'WP_DEBUG', false );\ndefine( 'WP_MEMORY_LIMIT', '512M' );\ndefine( 'WP_MAX_MEMORY_LIMIT', '512M' );\ndefine( 'WP_HOME', '${APP_URL}' );\ndefine( 'WP_SITEURL', '${APP_URL}' );\ndefine( 'WP_CACHE', true );\ndefine( 'WP_REDIS_HOST', '${WP_REDIS_HOST_VAL}' );\ndefine( 'WP_REDIS_PORT', ${WP_REDIS_PORT_VAL} );\ndefine( 'WP_REDIS_DATABASE', ${WP_REDIS_DATABASE_VAL} );\ndefine( 'WP_REDIS_PREFIX', '${WP_REDIS_PREFIX_VAL}' );\ndefine( 'WP_CACHE_KEY_SALT', '${WP_CACHE_KEY_SALT_VAL}' );\ndefine( 'DISABLE_WP_CRON', true );" "$WP_CONFIG"
 fi
 
 docker compose --env-file "$ENV_FILE" -f "$COMPOSE_FILE" up -d
