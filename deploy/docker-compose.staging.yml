@@ -4,7 +4,7 @@ services:
     container_name: linkedsafe-staging-db
     restart: unless-stopped
     env_file:
-      - ./.env.staging
+      - ../.env.staging
     command: --default-authentication-plugin=mysql_native_password
     volumes:
       - staging_db_data:/var/lib/mysql
@@ -20,7 +20,7 @@ services:
     container_name: linkedsafe-staging-wp
     restart: unless-stopped
     env_file:
-      - ./.env.staging
+      - ../.env.staging
     depends_on:
       db:
         condition: service_healthy

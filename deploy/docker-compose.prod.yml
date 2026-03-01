@@ -4,7 +4,7 @@ services:
     container_name: linkedsafe-prod-db
     restart: unless-stopped
     env_file:
-      - ./.env.prod
+      - ../.env.prod
     command: --default-authentication-plugin=mysql_native_password
     volumes:
       - prod_db_data:/var/lib/mysql
@@ -20,7 +20,7 @@ services:
     container_name: linkedsafe-prod-wp
     restart: unless-stopped
     env_file:
-      - ./.env.prod
+      - ../.env.prod
     depends_on:
       db:
         condition: service_healthy
