@@ -183,3 +183,38 @@ docker compose --env-file .env.staging -f deploy/docker-compose.staging.yml down
    - 证书私钥
 3. 备份压缩包与证书统一放在服务器本地 `bak/` 目录，不提交 Git。
 4. 测试与正式建议分开服务器，避免互相影响。
+
+## 9. 4C8G 推荐性能配置
+
+仓库已内置中型站点优化参数：
+
+- PHP: `deploy/php/custom.ini`
+- MySQL: `deploy/mysql/my.cnf`
+- Nginx: `deploy/nginx/performance.conf`
+
+在服务器更新代码后执行：
+
+```bash
+cd /opt/linked-safe
+git pull
+docker compose --env-file .env.staging -f deploy/docker-compose.staging.yml up -d --force-recreate
+```
+
+生产环境同理：
+
+```bash
+docker compose --env-file .env.prod -f deploy/docker-compose.prod.yml up -d --force-recreate
+```
+
+验证配置生效：
+
+```bash
+# PHP
+docker compose --env-file .env.staging -f deploy/docker-compose.staging.yml exec -T wordpress php -i | grep -E "memory_limit|max_execution_time|opcache.memory_consumption"
+
+# MySQL
+docker compose --env-file .env.staging -f deploy/docker-compose.staging.yml exec -T db sh -c 'mysql -u"$MYSQL_USER" -p"$MYSQL_PASSWORD" -e "SHOW VARIABLES LIKE '\''innodb_buffer_pool_size'\''; SHOW VARIABLES LIKE '\''max_connections'\'';"'
+
+# Nginx
+docker compose --env-file .env.staging -f deploy/docker-compose.staging.yml exec -T nginx nginx -T | grep -E "gzip on|keepalive_timeout|proxy_read_timeout"
+```

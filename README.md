@@ -136,3 +136,17 @@ Required repository secrets:
 - Later releases do not overwrite the database volume.
 - Never commit real secrets or certificate private keys.
 - `bak/` is server-local and should not be committed to Git.
+
+## Performance Tuning (4C8G baseline)
+
+Built-in tuning files:
+
+- `deploy/php/custom.ini`
+- `deploy/mysql/my.cnf`
+- `deploy/nginx/performance.conf`
+
+After pulling latest changes, recreate services:
+
+```bash
+docker compose --env-file .env.staging -f deploy/docker-compose.staging.yml up -d --force-recreate
+```
