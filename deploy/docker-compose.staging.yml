@@ -46,7 +46,7 @@ services:
       - ../site:/var/www/html
       - ./php/custom.ini:/usr/local/etc/php/conf.d/zz-custom.ini:ro
     healthcheck:
-      test: ["CMD-SHELL", "php -r '$fp=@fsockopen(\"127.0.0.1\",80,$errno,$errstr,3); if(!$fp){exit(1);} fwrite($fp,\"GET /wp-login.php HTTP/1.0\\\\r\\\\nHost: localhost\\\\r\\\\nConnection: close\\\\r\\\\n\\\\r\\\\n\"); $line=fgets($fp); fclose($fp); if(preg_match(\"#^HTTP/1\\\\.[01] ([23][0-9][0-9])#\",$line)){exit(0);} exit(1);'"]
+      test: ["CMD-SHELL", "wget -q -O /dev/null http://127.0.0.1/wp-login.php || exit 1"]
       start_period: 45s
       interval: 15s
       timeout: 8s
