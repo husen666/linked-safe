@@ -151,3 +151,23 @@ After pulling latest changes, recreate services:
 ```bash
 docker compose --env-file .env.staging -f deploy/docker-compose.staging.yml up -d --force-recreate
 ```
+
+Staging site backup (slim tarball, excludes uploads and common large paths). Script: `deploy/scripts/backup-site-slim.sh`.
+
+```bash
+cd /opt/linked-safe
+chmod +x deploy/scripts/*.sh
+./deploy/scripts/backup-site-slim.sh staging
+# Production: ./deploy/scripts/backup-site-slim.sh prod
+```
+
+The script prints the path to the tarball under `/tmp/` (for example `/tmp/linkedsafe-staging-site-no-uploads-YYYYMMDD.tar.gz`).
+
+
+
+tar -czf /tmp/linkedsafe-staging-site-no-uploads-$(date +%Y%m%d).tar.gz --exclude='site/wp-content/uploads' --exclude='site/simply-static-*.zip' --exclude='site/html' --exclude='site/wp-content/cache' --exclude='site/wp-content/upgrade' --exclude='site/wp-content/backups' --exclude='site/wp-content/ai1wm-backups' --exclude='site/wp-content/updraft' site
+
+
+scp ubuntu@43.166.187.213:/home/ubuntu/linkedsafe-staging-20260407.sql .
+
+ssh ubuntu@43.166.187.213

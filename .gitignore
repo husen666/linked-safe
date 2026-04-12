@@ -1,5 +1,6 @@
 .env.staging
 .env.prod
+.env.local
 
 site/
 mysql-init/
@@ -8,4 +9,8 @@ tmp/
 
 *.tar.gz
 *.zip
+*.sql
+*.sql.gz
 bak/
+
+.DS_Store
