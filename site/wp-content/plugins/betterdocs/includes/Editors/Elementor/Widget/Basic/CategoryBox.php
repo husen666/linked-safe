@@ -1524,7 +1524,9 @@ class CategoryBox extends BaseWidget {
 		$settings             = &$this->attributes;
 		$settings['taxonomy'] = 'doc_category';
 
-		if ( $settings['layout_template'] == 'layout-4' ) {
+		$_is_layout_four = ( $settings['layout_template'] == 'layout-4' );
+
+		if ( $_is_layout_four ) {
 			add_filter( 'betterdocs_layout_filename', [ $this, 'change_to_layout_four' ], 15, 3 );
 		}
 
@@ -1533,6 +1535,10 @@ class CategoryBox extends BaseWidget {
 		$this->add_filter( $_filter_added );
 		$this->views( 'layouts/base' );
 		$this->remove_filter( $_filter_added );
+
+		if ( $_is_layout_four ) {
+			remove_filter( 'betterdocs_layout_filename', [ $this, 'change_to_layout_four' ], 15 );
+		}
 	}
 
 	public function view_params() {
