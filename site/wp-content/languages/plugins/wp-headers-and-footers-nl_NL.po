@@ -1,0 +1,418 @@
+# Translation of Plugins - Insert Headers And Footers - Stable (latest release) in Dutch
+# This file is distributed under the same license as the Plugins - Insert Headers And Footers - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-03-21 20:41:09+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.3\n"
+"Language: nl\n"
+"Project-Id-Version: Plugins - Insert Headers And Footers - Stable (latest release)\n"
+
+#: lib/wpb-sdk/views/wpb-debug.php:296
+msgid "Option Name (must start with wpb_):"
+msgstr "Optienaam (moet beginnen met wpb_):"
+
+#: lib/wpb-sdk/views/wpb-debug.php:292
+msgid "Set DB Option"
+msgstr "DB optie instellen"
+
+#: lib/wpb-sdk/views/wpb-debug.php:235
+msgid "Actions"
+msgstr "Acties"
+
+#: lib/wpb-sdk/views/wpb-debug.php:232
+msgid "This page shows sensitive data (keys, paths, user info). Do not share screenshots or leave unattended."
+msgstr "Deze pagina geeft gevoelige gegevens weer (sleutels, paden, informatie over gebruikers). Deel geen schermafbeeldingen en laat ze niet onbeheerd achter."
+
+#: lib/wpb-sdk/views/wpb-debug.php:231
+msgid "Admin-only debug page."
+msgstr "Alleen beheerders debug pagina."
+
+#: lib/wpb-sdk/views/wpb-debug.php:219
+msgid "Option not set. Name must start with wpb_."
+msgstr "Optie niet ingesteld. Naam moet beginnen met wpb_."
+
+#: lib/wpb-sdk/views/wpb-debug.php:218
+msgid "Successfully set the option."
+msgstr "De optie is succesvol ingesteld."
+
+#: lib/wpb-sdk/views/wpb-debug.php:25
+msgid "Debug mode is not enabled."
+msgstr "Debugmodus is niet ingeschakeld."
+
+#: lib/wpb-sdk/views/wpb-debug.php:17
+msgid "You do not have permission to access this page."
+msgstr "Je hebt geen toestemming om deze pagina te openen."
+
+#: inc/hnf-optout-form.php:469
+msgid "Keep Sharing"
+msgstr "Blijven delen"
+
+#: inc/hnf-optout-form.php:465
+msgid "Stay Connected"
+msgstr "Verbonden blijven"
+
+#: inc/hnf-optout-form.php:464 inc/hnf-optout-form.php:468
+msgid "Opt Out"
+msgstr "Opt-out"
+
+#: inc/hnf-optout-form.php:461
+msgid "Done"
+msgstr "Gereed"
+
+#. Translators: The footer textarea description
+#: classes/class-setup.php:224
+msgid "Enable to remove all custom settings and scripts added by Insert Headers and Footers upon uninstall."
+msgstr "Inschakelen om alle aangepaste instellingen en scripts toegevoegd door Insert Headers and Footers te verwijderen bij de-installatie."
+
+#: classes/class-setup.php:222
+msgid "Remove Settings on Uninstall:"
+msgstr "Instellingen verwijderen bij de-installatie:"
+
+#. Translators: The footer textarea description
+#: classes/class-setup.php:217
+msgid "Enable to remove all scripts and reset all settings made by Insert Headers and Footers upon saving."
+msgstr "Inschakelen om alle scripts te verwijderen en alle instellingen gemaakt door Insert Headers and Footers bij het opslaan te resetten."
+
+#: classes/class-setup.php:215
+msgid "Factory Reset:"
+msgstr "Fabrieksinstellingen resetten:"
+
+#: wp-headers-and-footers.php:208
+msgid "Sorry, you are not allowed to edit this item."
+msgstr "Je hebt geen toestemming om dit item te bewerken."
+
+#: wp-headers-and-footers.php:171
+msgid "Activate"
+msgstr "Activeren"
+
+#: inc/hnf-optin-form.php:476
+msgid "Active, Deactive, Uninstallation and How you use this plugin's features and settings. This is limited to usage data. It does not include any of your sensitive headerandfooter data, such as traffic. This data helps us learn which features are most popular, so we can improve the plugin further."
+msgstr "Actief, deactief, de-installatie en hoe je de functies en instellingen van deze plugin gebruikt. Dit is beperkt tot gebruiksgegevens. Het bevat geen van je gevoelige header en footer gegevens, zoals verkeer. Deze gegevens helpen ons te leren welke functies het populairst zijn, zodat we de plugin verder kunnen verbeteren."
+
+#: inc/hnf-optin-form.php:475
+msgid "Plugin Actions"
+msgstr "Plugin acties"
+
+#: inc/hnf-optin-form.php:473
+msgid "Updates, Announcement, Marketing. No Spam, I promise."
+msgstr "Updates, aankondiging, marketing, geen spam, ik beloof het."
+
+#: inc/hnf-optin-form.php:472
+msgid "Admin Notices"
+msgstr "Beheerder berichten"
+
+#: inc/hnf-optin-form.php:470
+msgid "Your name and email address."
+msgstr "Je naam en e-mailadres."
+
+#: inc/hnf-optin-form.php:469
+msgid "Your Profile Overview"
+msgstr "Je profiel overzicht"
+
+#: inc/hnf-optin-form.php:467
+msgid "Your Site URL, WordPress & PHP version, plugins & themes. This data lets us make sure this plugin always stays compatible with the most popular plugins and themes."
+msgstr "Je site URL, WordPress & PHP versie, plugins & thema's. Deze gegevens zorgt ervoor dat we deze plugin altijd compatibel laten zijn met de meest populaire plugins en thema's."
+
+#: inc/hnf-optin-form.php:466
+msgid "Your Website Overview"
+msgstr "Je site overzicht"
+
+#: inc/hnf-optin-form.php:463
+msgid "Skip This Step"
+msgstr "Deze stap overslaan"
+
+#: inc/hnf-optin-form.php:462
+msgid "Allow and Continue  "
+msgstr "Toestaan en doorgaan  "
+
+#. Translators: Welcome text
+#: inc/hnf-optin-form.php:452
+msgid "%1$s Hey %2$s,  %4$s If you opt-in some data about your installation of WP Headers And Footers will be sent to WPBrigade.com (This doesn't include stats)%4$s and You will receive new feature updates, security notifications etc %5$sNo Spam, I promise.%6$s %4$s%4$s Help us %7$sImprove Headers and Footers%8$s %4$s %4$s "
+msgstr "%1$s hallo %2$s,  %4$s als je je aanmeldt, worden er gegevens over je installatie van WP Headers And Footers verzonden naar wPBrigade.com (Dit omvat geen statistieken)%4$s en ontvang je nieuwe functie updates, meldingen over beveiliging enz. %5$sGeen spam, dat beloof ik.%6$s %4$s%4$s help ons %7$sVerbeteren headers en footers%8$s %4$s %4$s "
+
+#: inc/hnf-optin-form.php:445
+msgid "Welcome to Headers and Footers"
+msgstr "Welkom bij Headers en Footers"
+
+#. Translators: Opt In
+#: classes/plugin-meta.php:102
+msgid "|  %1$s Opt In %2$s "
+msgstr "|  %1$s opt-in %2$s "
+
+#. Translators: Opt Out
+#: classes/plugin-meta.php:96
+msgid "|  %1$s Opt Out %2$s "
+msgstr "|  %1$s opt-out %2$s "
+
+#. Translators: Diagnostic
+#: classes/class-setup.php:285
+msgid "Diagnostic %1$sLog%2$s"
+msgstr "Diagnostische %1$slog%2$s"
+
+#: classes/class-setup.php:243
+msgid "Insert Headers And Footers"
+msgstr "Voeg headers en footers in"
+
+#: classes/class-setup.php:142
+msgid "Help & Troubleshooting"
+msgstr "Hulp & probleemoplossing"
+
+#: classes/class-diagnostics-log.php:134
+msgid "WP Headers and Footers Log File Downloaded Successfully!"
+msgstr "WP headers and footers logbestand succesvol gedownload!"
+
+#: classes/class-diagnostics-log.php:131
+msgid "Download Log File"
+msgstr "Download log bestand"
+
+#: classes/class-settings-api.php:574
+msgid "Analytify: Google Analytics for WordPress "
+msgstr "Analytify: Google Analytics voor WordPress "
+
+#: classes/class-settings-api.php:568
+msgid "LoginPress: Login Page Customizer"
+msgstr "LoginPress: login pagina customizer"
+
+#. Author URI of the plugin
+#: wp-headers-and-footers.php
+msgid "https://wpbrigade.com/?utm_source=wp-headers-and-footers&utm_medium=author-uri-link"
+msgstr "https://wpbrigade.com/?utm_source=wp-headers-and-footers&utm_medium=author-uri-link"
+
+#. Plugin URI of the plugin
+#: wp-headers-and-footers.php
+msgid "https://www.WPBrigade.com/wordpress/plugins/wp-headers-and-footers/?utm_source=?utm_source=wp-headers-and-footers&utm_medium=author-uri-link"
+msgstr "https://www.WPBrigade.com/wordpress/plugins/wp-headers-and-footers/?utm_source=?utm_source=wp-headers-and-footers&utm_medium=author-uri-link"
+
+#: classes/class-setup.php:289
+msgid "Support"
+msgstr "Ondersteuning"
+
+#: classes/class-setup.php:205
+msgid "Footer's Priority:"
+msgstr "Footer prioriteit:"
+
+#. Translators: The body textarea description
+#. Translators: The footer textarea description
+#: classes/class-setup.php:197 classes/class-setup.php:207
+msgid "The priority for %1$s tag. %2$sDefault is 10%3$s"
+msgstr "De prioriteit voor %1$s tag. %2$sStandaard is 10%3$s"
+
+#: classes/class-setup.php:195
+msgid "Body's Priority:"
+msgstr "Body prioriteit:"
+
+#. Translators: The header textarea description
+#: classes/class-setup.php:187
+msgid "The priority for %1$s section. %2$sDefault is 10%3$s"
+msgstr "De prioriteit voor %1$s sectie. %2$sStandaard is 10%3$s"
+
+#: classes/class-setup.php:185
+msgid "Header's Priority:"
+msgstr "Header prioriteit:"
+
+#: classes/class-setup.php:138
+msgid "Set your priorities for each script tag."
+msgstr "Stel je prioriteiten in voor elke script tag."
+
+#: classes/class-setup.php:133
+msgid "Scripts"
+msgstr "Scripts"
+
+#: classes/class-notifications.php:141
+msgid "Never show again"
+msgstr "Nooit meer laten zien"
+
+#: classes/class-notifications.php:140
+msgid "Maybe Later"
+msgstr "Misschien later"
+
+#: classes/class-notifications.php:139
+msgid "I've already left a review"
+msgstr "Ik heb al een beoordeling achtergelaten"
+
+#: classes/class-notifications.php:138
+msgid "Sure! I'd love to!"
+msgstr "Natuurlijk! Dat zou ik graag willen!"
+
+#: classes/class-notifications.php:136
+msgid "We hope you've enjoyed using Inline Headers And Footers! Would you consider leaving us a review on WordPress.org?"
+msgstr "We hopen dat je Inline Headers And Footers met plezier hebt gebruikt! Zou je willen overwegen om een beoordeling achter te laten op WordPress.org?"
+
+#: classes/class-notifications.php:135
+msgid "Leave A Review?"
+msgstr "Een beoordeling achterlaten?"
+
+#: lib/wpb-sdk/views/wpb-sdk-deactivate-form.php:182
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: lib/wpb-sdk/views/wpb-sdk-deactivate-form.php:175
+msgid "Anonymous feedback"
+msgstr "Anonieme feedback"
+
+#: lib/wpb-sdk/views/wpb-sdk-deactivate-form.php:167
+msgid "Would you like to share what's other reason?"
+msgstr "Wil je delen wat de andere reden is?"
+
+#: lib/wpb-sdk/views/wpb-sdk-deactivate-form.php:166
+msgid "Kindly tell us the reason so we can improve."
+msgstr "Vertel ons de reden, zodat we deze kunnen verbeteren."
+
+#: lib/wpb-sdk/views/wpb-sdk-deactivate-form.php:162
+msgid "Other"
+msgstr "Andere"
+
+#: lib/wpb-sdk/views/wpb-sdk-deactivate-form.php:155
+msgid "It's a temporary deactivation. I'm just debugging an issue."
+msgstr "Het is een tijdelijke deactivering. Ik ben een probleem aan het oplossen."
+
+#: lib/wpb-sdk/views/wpb-sdk-deactivate-form.php:148
+msgid "I no longer need the plugin"
+msgstr "Ik heb de plugin niet langer nodig"
+
+#: lib/wpb-sdk/views/wpb-sdk-deactivate-form.php:141
+msgid "The plugin suddenly stopped working"
+msgstr "De plugin stopte plotseling met werken"
+
+#: lib/wpb-sdk/views/wpb-sdk-deactivate-form.php:134
+msgid "The plugin broke my site"
+msgstr "De plugin maakte mijn site kapot"
+
+#: lib/wpb-sdk/views/wpb-sdk-deactivate-form.php:128
+msgid "What's the plugin's name?"
+msgstr "Hoe heet de plugin?"
+
+#: lib/wpb-sdk/views/wpb-sdk-deactivate-form.php:127
+msgid "Kindly tell us the name of plugin"
+msgstr "Vertel ons de naam van de plugin"
+
+#: lib/wpb-sdk/views/wpb-sdk-deactivate-form.php:123
+msgid "I found a better plugin"
+msgstr "Ik heb een betere plugin gevonden"
+
+#: lib/wpb-sdk/views/wpb-sdk-deactivate-form.php:116
+msgid "I only needed the plugin for a short period"
+msgstr "Ik had de plugin maar kort nodig"
+
+#: lib/wpb-sdk/views/wpb-sdk-deactivate-form.php:111
+msgid "If you have a moment, please let us know why you are deactivating:"
+msgstr "Als je even de tijd hebt, laat ons dan weten waarom je deactiveert:"
+
+#: lib/wpb-sdk/views/wpb-sdk-deactivate-form.php:108
+msgid "Quick feedback about "
+msgstr "Snelle feedback over "
+
+#. Translators: The body textarea description
+#. Translators: The footer textarea description
+#: classes/class-setup.php:171 classes/class-setup.php:178
+msgid "These scripts will be printed below the %1$s tag."
+msgstr "Deze scripts worden afgedrukt onder de tag %1$s."
+
+#: classes/class-setup.php:169
+msgid "Scripts in Body"
+msgstr "Scripts in body"
+
+#. Plugin Name of the plugin
+#: wp-headers-and-footers.php
+msgid "WP Headers And Footers"
+msgstr "WP Headers And Footers"
+
+#: classes/class-settings-api.php:585
+msgid "Under Construction & Maintenance mode"
+msgstr "Onder constructie & onderhoudsmodus"
+
+#: classes/class-settings-api.php:580
+msgid "Simple Social Buttons"
+msgstr "Eenvoudige sociale knoppen"
+
+#. Translators: Settings tab
+#: classes/plugin-meta.php:85
+msgid "%1$s Settings %2$s"
+msgstr "%1$s Instellingen %2$s"
+
+#: classes/plugin-meta.php:60
+msgid "Rate"
+msgstr "Waardeer"
+
+#: classes/plugin-meta.php:57
+msgid "Vote!"
+msgstr "Stem!"
+
+#: classes/class-setup.php:176
+msgid "Scripts in Footer"
+msgstr "Scripts in footer"
+
+#. Translators: The header textarea description
+#: classes/class-setup.php:164
+msgid "These scripts will be printed in the %1$s section."
+msgstr "Deze scripts worden afgedrukt in de sectie %1$s."
+
+#: classes/class-setup.php:162
+msgid "Scripts in Header"
+msgstr "Scripts in header"
+
+#: classes/class-setup.php:137
+msgid "Settings"
+msgstr "﻿Instellingen"
+
+#: classes/class-settings-api.php:579 classes/class-settings-api.php:584
+msgid "Socialize your Website"
+msgstr "Socialiseer je site"
+
+#: classes/class-settings-api.php:573
+msgid "Share with your facebook friends about this awesome plugin."
+msgstr "Deel met je Facebook vrienden over deze geweldige plugin."
+
+#: classes/class-settings-api.php:567
+msgid "Customize your login screen"
+msgstr "Pas je login scherm aan"
+
+#: classes/class-settings-api.php:563
+msgid "Recommended Plugins"
+msgstr "Aanbevolen plugins"
+
+#: classes/class-settings-api.php:556
+msgid "Rate on WordPress.org"
+msgstr "Waardeer op WordPress.org"
+
+#: classes/class-settings-api.php:550
+msgid "Share on Facebook"
+msgstr "Deel op Facebook"
+
+#: classes/class-settings-api.php:549
+msgid "Share with your facebook friends about this awesome plugin"
+msgstr "Deel met je Facebook vrienden over deze geweldige plugin"
+
+#: classes/class-settings-api.php:544
+msgid "Share on X/Twitter"
+msgstr "Deel op X/Twitter"
+
+#: classes/class-settings-api.php:543
+msgid "Post to Twitter Now"
+msgstr "Plaats nu op Twitter"
+
+#: classes/class-settings-api.php:540
+msgid "Spread the Word"
+msgstr "Zeg het voort"
+
+#: classes/class-settings-api.php:374
+msgid "Choose File"
+msgstr "Kies bestand"
+
+#. Author of the plugin
+#: wp-headers-and-footers.php
+msgid "WPBrigade"
+msgstr "WPBrigade"
+
+#. Description of the plugin
+#: wp-headers-and-footers.php
+msgid "Allows you to insert code or text in the header or footer of your WordPress site."
+msgstr "Hiermee kun je code of tekst invoegen in de header of footer van je WordPress site."
+
+#: classes/class-setup.php:83
+msgid "WP Headers and Footers"
+msgstr "WP Headers and Footers"

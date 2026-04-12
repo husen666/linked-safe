@@ -1,0 +1,2 @@
+<?php
+return ['items'=>['Color'=>['urls'=>[],'names'=>['taxonomy singular name: Color'],'cmp'=>['wpml-string-translation',1]],'Product Color'=>['urls'=>[],'names'=>['taxonomy general name: Product Color'],'cmp'=>['wpml-string-translation',1]],'product-category'=>['urls'=>[],'names'=>['URL product_cat tax slug'],'cmp'=>['wpml-string-translation',1]],'product-tag'=>['urls'=>[],'names'=>['URL product_tag tax slug'],'cmp'=>['wpml-string-translation',1]]]];

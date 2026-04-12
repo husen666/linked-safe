@@ -1,0 +1,133 @@
+# Translation of Plugins - AI Engine &#8211; The Chatbot and AI Framework for WordPress - Stable (latest release) in German
+# This file is distributed under the same license as the Plugins - AI Engine &#8211; The Chatbot and AI Framework for WordPress - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-02-11 21:06:16+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.3\n"
+"Language: de\n"
+"Project-Id-Version: Plugins - AI Engine &#8211; The Chatbot and AI Framework for WordPress - Stable (latest release)\n"
+
+#: classes/admin.php:203 app/i18n.js:42
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: classes/modules/tasks.php:105
+msgid "Every 5 Seconds"
+msgstr "Alle 5 Sekunden"
+
+#: classes/modules/tasks.php:104
+msgid "Every Minute"
+msgstr "Jede Minute"
+
+#: classes/admin.php:187
+msgid "Magic Wand"
+msgstr "Zauberstab"
+
+#: classes/admin.php:135 app/i18n.js:145
+msgid "Images"
+msgstr "Bilder"
+
+#: classes/admin.php:127 app/i18n.js:144
+msgid "Content"
+msgstr "Inhalt"
+
+#: classes/admin.php:193 app/i18n.js:572
+msgid "Generate Excerpt"
+msgstr "Textauszug generieren"
+
+#: classes/admin.php:68 classes/admin.php:162 app/i18n.js:116
+msgid "Playground"
+msgstr "Spielplatz"
+
+#: common/news.php:101
+msgid "❌ Delete"
+msgstr "❌ Löschen"
+
+#: common/news.php:92
+msgid "👉 AI Engine at WordPress.org"
+msgstr "👉 AI Engine auf WordPress.org"
+
+#: common/news.php:84
+msgid "<h2 style=\"margin: 0 0 10px 0\" class=\"title\">AI Engine by Meow Apps: The Power of AI into WordPress 💫</h2>"
+msgstr "<h2 style=\"margin: 0 0 10px 0\" class=\"title\">AI Engine von Meow Apps: Die Kraft der KI in WordPress 💫</h2>"
+
+#: common/ratings.php:106
+msgid "✌️ Done!"
+msgstr "✌️ Fertig!"
+
+#: common/ratings.php:95
+msgid "<h2 style=\"margin: 0\" class=\"title\">You have been using <b>%1$s</b> for some time now. Thank you! 💕</h2><p>If you have a minute, can you write a <b><a target=\"_blank\" href=\""
+msgstr "<h2 style=\"margin: 0\" class=\"title\">Du hast <b>%1$s</b> für einige Zeit genutzt. Vielen Dank! 💕</h2><p>Falls du eine Minute hast, würde ich mich über eine Bewertung sehr freuen <b><a target=\"_blank\" href=\""
+
+#: common/ratings.php:120 app/i18n.js:142
+msgid "Hide"
+msgstr "Ausblenden"
+
+#. Plugin Name of the plugin
+#: ai-engine.php classes/admin.php:118
+msgid "AI Engine"
+msgstr "AI Engine"
+
+#. Plugin URI of the plugin
+#: ai-engine.php
+msgid "https://wordpress.org/plugins/ai-engine/"
+msgstr "https://wordpress.org/plugins/ai-engine/"
+
+#: common/admin.php:447 common/admin.php:448 app/i18n.js:213
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#. Author of the plugin
+#: ai-engine.php
+msgid "Jordy Meow"
+msgstr "Jordy Meow"
+
+#. Author URI of the plugin
+#: ai-engine.php
+msgid "https://jordymeow.com"
+msgstr "https://jordymeow.com"
+
+#: common/admin.php:225 common/admin.php:242
+msgid "Pro Version"
+msgstr "Pro-Version"
+
+#: common/admin.php:231 common/admin.php:243
+msgid "<a target=\"_blank\" href=\"https://meowapps.com\">Get the <u>Pro Version</u></a>"
+msgstr "<a target=\"_blank\" href=\"https://meowapps.com\">Hol dir die <u>Pro Version</u></a>"
+
+#: common/admin.php:243
+msgid "License Issue"
+msgstr "Lizenzproblem"
+
+#: common/admin.php:239
+msgid "<a href=\"admin.php?page=%s_settings\">Settings</a>"
+msgstr "<a href=\"admin.php?page=%s_settings\">Einstellungen</a>"
+
+#. translators: %1$s is the version of the interface; %2$s is a file path.
+#: common/admin.php:503
+msgid "Thanks for using <a href=\"https://meowapps.com\">Meow Apps</a>! This is the Meow Admin %1$s <br /><i>Loaded from %2$s </i>"
+msgstr "Danke, dass du <a href=\"https://meowapps.com\">Meow Apps</a> benutzt! Dies ist Meow Admin %1$s <br /><i> Geladen von %2$s </i>"
+
+#: classes/init.php:5
+msgid "Thanks for installing the Pro version of AI Engine :) However, the free version is still enabled. Please disable or uninstall it."
+msgstr "Danke, dass du die Pro-Version AI Engine installiert hast :). Die kostenlose Version ist jedoch noch aktiviert. Bitte deaktiviere oder deinstalliere diese."
+
+#: common/admin.php:468
+msgid "<label>Hide <b>Meow Apps</b> Menu</label><br /><small>Hide Meow Apps menu and all its components, for a cleaner admin. This option will be reset if a new Meow Apps plugin is installed.<br /><b>Once activated, an option will be added in your General settings to display it again.</b></small>"
+msgstr "<label>Verberge <b>Meow Apps</b>-Menü</label><br /><small>Das Meow Apps-Menü für eine aufgeräumtere Admin-Oberfläche verbergen. Diese Option wird zurückgesetzt, wenn ein neues Meow Apps-Plugin installiert wurde.<br /><b>Wenn diese Option einmal aktiviert wurde, erscheint unter den allgemeinen Einstellungen eine neue Option, um das Menü wieder anzuzeigen.</b></small>"
+
+#: common/admin.php:411
+msgid "<p>It looks like you are using the free version of the plugin (<b>%s</b>) but a license for the Pro version was also found. The Pro version might have been replaced by the Free version during an update (might be caused by a temporarily issue). If it is the case, <b>please download it again</b> from the <a target=\"_blank\" href=\"https://meowapps.com\">Meow Store</a>. If you wish to continue using the free version and clear this message, click on this button."
+msgstr "<p>Es sieht so aus, als ob du die kostenlose Version des Plugins verwendest (<b>%s</b>), aber es wurde auch eine Lizenz für die Pro-Version gefunden. Möglicherweise wurde die Pro-Version während eines Aktualisierungsvorgangs durch die kostenlose Version ersetzt (dies könnte auf ein vorübergehendes Problem zurückzuführen sein). Sollte dies der Fall sein, <b>lade es bitte erneut</b> aus dem <a target=\"_blank\" href=\"https://meowapps.com\">Meow Store</a> herunter. Wenn du die kostenlose Version weiter verwenden und diese Meldung entfernen möchtest, klicke auf diesen Button."
+
+#: common/news.php:96 common/ratings.php:114
+msgid "⏰ Remind me later"
+msgstr "⏰ Später erinnern"
+
+#: common/admin.php:418
+msgid "Remove the license"
+msgstr "Lizenz entfernen"

@@ -1,0 +1,2 @@
+<?php
+return ['messages'=>['207510d5ddbbc91b4931a5d5a499c081'=>'Arquivo','8581d10c4f71c55814b10e921c313f8b'=>'Categorias','9fbc9357c7323f9b2e023a360bafe4e0'=>'<div class="wp-block-group"/>','<div class="wp-block-group"></div>'=>'<div class="wp-block-group"/>','DSC05438'=>'DSC05438','d2143a786ad154b3df3d0788ca2e5dc3'=>'Artigos recentes','fd1e800342482009ce39312b6587fbb5'=>'Comentários recentes','media_158_title'=>'DSC05438','分类'=>'Categorias','归档'=>'Arquivo','近期文章'=>'Artigos recentes','近期评论'=>'Comentários recentes']];

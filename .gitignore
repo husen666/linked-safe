@@ -2,7 +2,9 @@
 .env.prod
 .env.local
 
-site/
+# WordPress：跟踪 site/ 代码与插件；不上传含密钥的配置
+site/wp-config.php
+
 mysql-init/
 ssl/
 tmp/

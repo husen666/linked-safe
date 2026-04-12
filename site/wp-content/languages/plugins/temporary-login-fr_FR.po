@@ -1,0 +1,75 @@
+# Translation of Plugins - Temporary Login - Stable (latest release) in French (France)
+# This file is distributed under the same license as the Plugins - Temporary Login - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-07-01 08:56:41+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - Temporary Login - Stable (latest release)\n"
+
+#. Author URI of the plugin
+#: temporary-login.php
+msgid "https://elementor.com/?utm_source=wp-plugins&utm_campaign=temp-login&utm_medium=wp-dash"
+msgstr "https://elementor.com/?utm_source=wp-plugins&utm_campaign=temp-login&utm_medium=wp-dash"
+
+#. Author of the plugin
+#: temporary-login.php
+msgid "Elementor.com"
+msgstr "Elementor.com"
+
+#: core/admin.php:124
+msgid "Create Temporary Login"
+msgstr "Créer une connexion temporaire"
+
+#: core/admin-pointer.php:35
+msgid "Take me there"
+msgstr "Emmenez-moi là-bas"
+
+#: core/options.php:121
+msgid "Expired"
+msgstr "Expiré"
+
+#. Plugin URI of the plugin
+#: temporary-login.php
+msgid "https://elementor.com/"
+msgstr "https://elementor.com/"
+
+#. Plugin Name of the plugin
+#: temporary-login.php core/admin-pointer.php:29 core/admin.php:47
+#: core/admin.php:48 assets/admin.js:2
+msgid "Temporary Login"
+msgstr "Temporary Login"
+
+#. Description of the plugin
+#: temporary-login.php
+msgid "Create simple, no password user access with a single click."
+msgstr "Créez un accès admin simple, sans mot de passe, en un seul clic."
+
+#. translators: 1: `<h3>` opening tag, 2: `</h3>` closing tag, 3: WordPress
+#. version. 4: Link opening tag, 5: Link closing tag.
+#: temporary-login.php:61
+msgid "%1$sTemporary Login isn’t running because WordPress is outdated.%2$s Update to WordPress version %3$s and get back to creating! %4$sShow me how%5$s"
+msgstr "%1$sTemporary Login ne fonctionne pas, car WordPress est obsolète.%2$s Mettez à jour WordPress vers la version %3$s et revenez à la création ! %4$sAfficher comment faire%5$s"
+
+#. translators: 1: `<h3>` opening tag, 2: `</h3>` closing tag, 3: PHP version.
+#. 4: Link opening tag, 5: Link closing tag.
+#: temporary-login.php:47
+msgid "%1$sTemporary Login isn’t running because PHP is outdated.%2$s Update to PHP version %3$s and get back to creating! %4$sShow me how%5$s"
+msgstr "%1$sTemporary Login ne fonctionne pas car PHP est obsolète.%2$s Mettez à jour PHP vers la version %3$s et revenez à la création ! %4$sAfficher comment faire%5$s"
+
+#: core/ajax.php:26 core/ajax.php:51 core/ajax.php:97 core/ajax.php:123
+#: core/ajax.php:137 core/ajax.php:160
+msgid "You don't have permission to access this request"
+msgstr "Vous n’avez pas le droit d’accéder à cette requête"
+
+#: core/admin.php:81
+msgid "<strong>Error:</strong> The username is not registered on this site. If you are unsure of your username, try your email address instead."
+msgstr "<strong>Erreur :</strong> l’identifiant n’est pas enregistré sur ce site. Si vous n’êtes pas sûr de votre identifiant, essayez plutôt votre adresse e-mail."
+
+#: core/admin-pointer.php:30
+msgid "Head over to the Temporary Login plugin to create single click access to your site admin."
+msgstr "Rendez-vous sur l’extension Temporary Login pour créer un accès en un seul clic à l’administration de votre site."

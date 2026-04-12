@@ -1,0 +1,75 @@
+# Translation of Plugins - Temporary Login - Stable (latest release) in Dutch
+# This file is distributed under the same license as the Plugins - Temporary Login - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-07-10 19:55:34+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: nl\n"
+"Project-Id-Version: Plugins - Temporary Login - Stable (latest release)\n"
+
+#. Author URI of the plugin
+#: temporary-login.php
+msgid "https://elementor.com/?utm_source=wp-plugins&utm_campaign=temp-login&utm_medium=wp-dash"
+msgstr "https://elementor.com/?utm_source=wp-plugins&utm_campaign=temp-login&utm_medium=wp-dash"
+
+#. translators: 1: `<h3>` opening tag, 2: `</h3>` closing tag, 3: WordPress
+#. version. 4: Link opening tag, 5: Link closing tag.
+#: temporary-login.php:61
+msgid "%1$sTemporary Login isn’t running because WordPress is outdated.%2$s Update to WordPress version %3$s and get back to creating! %4$sShow me how%5$s"
+msgstr "%1$sTemporary Login werkt niet omdat WordPress verouderd is.%2$s Update naar WordPress versie %3$s en ga verder met maken! %4$sLaat me zien hoe%5$s"
+
+#. translators: 1: `<h3>` opening tag, 2: `</h3>` closing tag, 3: PHP version.
+#. 4: Link opening tag, 5: Link closing tag.
+#: temporary-login.php:47
+msgid "%1$sTemporary Login isn’t running because PHP is outdated.%2$s Update to PHP version %3$s and get back to creating! %4$sShow me how%5$s"
+msgstr "%1$sTemporary Login werkt niet omdat PHP verouderd is.%2$s Update naar PHP versie %3$s en ga verder met maken! %4$sLaat me zien hoe%5$s"
+
+#: core/options.php:121
+msgid "Expired"
+msgstr "Verlopen"
+
+#: core/ajax.php:26 core/ajax.php:51 core/ajax.php:97 core/ajax.php:123
+#: core/ajax.php:137 core/ajax.php:160
+msgid "You don't have permission to access this request"
+msgstr "Je hebt geen toestemming om deze aanvraag te openen"
+
+#: core/admin.php:124
+msgid "Create Temporary Login"
+msgstr "Tijdelijke login aanmaken"
+
+#: core/admin.php:81
+msgid "<strong>Error:</strong> The username is not registered on this site. If you are unsure of your username, try your email address instead."
+msgstr "<strong>Fout:</strong> de gebruikersnaam is niet geregistreerd op deze site. Als je niet zeker bent van je gebruikersnaam, probeer dan inplaats ervan je e-mailadres."
+
+#: core/admin-pointer.php:35
+msgid "Take me there"
+msgstr "Breng me erheen"
+
+#: core/admin-pointer.php:30
+msgid "Head over to the Temporary Login plugin to create single click access to your site admin."
+msgstr "Ga naar de Temporary Login plugin om met één klik toegang te krijgen tot je sitebeheer."
+
+#. Author of the plugin
+#: temporary-login.php
+msgid "Elementor.com"
+msgstr "Elementor.com"
+
+#. Description of the plugin
+#: temporary-login.php
+msgid "Create simple, no password user access with a single click."
+msgstr "Creëer eenvoudige gebruikerstoegang zonder wachtwoord met één enkele klik."
+
+#. Plugin URI of the plugin
+#: temporary-login.php
+msgid "https://elementor.com/"
+msgstr "https://elementor.com/"
+
+#. Plugin Name of the plugin
+#: temporary-login.php core/admin-pointer.php:29 core/admin.php:47
+#: core/admin.php:48 assets/admin.js:2
+msgid "Temporary Login"
+msgstr "Temporary Login"
