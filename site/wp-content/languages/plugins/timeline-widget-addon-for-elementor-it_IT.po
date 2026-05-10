@@ -1,0 +1,641 @@
+# Translation of Plugins - Timeline Widget For Elementor (Elementor Timeline, Vertical &amp; Horizontal Timeline) - Stable (latest release) in Italian
+# This file is distributed under the same license as the Plugins - Timeline Widget For Elementor (Elementor Timeline, Vertical &amp; Horizontal Timeline) - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-01-15 12:56:55+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.3\n"
+"Language: it\n"
+"Project-Id-Version: Plugins - Timeline Widget For Elementor (Elementor Timeline, Vertical &amp; Horizontal Timeline) - Stable (latest release)\n"
+
+#: timeline-widget-addon-for-elementor.php:203
+msgid "Install Plugin"
+msgstr "Installa il plugin"
+
+#: timeline-widget-addon-for-elementor.php:203
+msgid "View Demos"
+msgstr "Visualizza le demo"
+
+#: admin/timeline-addon-page/includes/twae-get-started-content.php:109
+msgid "Save your changes and preview your page to see the updates."
+msgstr "Salva le tue modifiche e vedi l'anteprima della tua pagina per vedere gli aggiornamenti."
+
+#: admin/timeline-addon-page/includes/twae-get-started-content.php:104
+msgid "Adjust typography settings for a consistent and nice font style."
+msgstr "Regola le impostazioni di tipografia per uno stile del font coerente e piacevole."
+
+#: admin/timeline-addon-page/includes/twae-get-started-content.php:99
+msgid "Customize Label and Year Box settings for a unique look."
+msgstr "Personalizza le impostazioni dell'etichetta e del box anno per un aspetto unico."
+
+#: admin/timeline-addon-page/includes/twae-get-started-content.php:94
+msgid "Go to the Style tab to pick the line color."
+msgstr "Vai nella scheda \"Stile\" per scegliere il colore della linea."
+
+#: admin/timeline-addon-page/includes/twae-get-started-content.php:87
+msgid "3. Configure Timeline Settings"
+msgstr "3. Configura le impostazioni della timeline"
+
+#: admin/timeline-addon-page/includes/twae-get-started-content.php:75
+msgid "Choose a custom image for each story."
+msgstr "Scegli un'immagine personalizzata per ciascuna storia."
+
+#: admin/timeline-addon-page/includes/twae-get-started-content.php:70
+msgid "Add a title and description for your stories."
+msgstr "Aggiungi un titolo e una descrizione alle tue storie."
+
+#: admin/timeline-addon-page/includes/twae-get-started-content.php:65
+msgid "Enter the date and sub-label for each story."
+msgstr "Inserisci la data e la sotto-etichetta in ciascuna storia."
+
+#: admin/timeline-addon-page/includes/twae-get-started-content.php:60
+msgid "To add new stories, click the \"Add Item\" button."
+msgstr "Per aggiungere nuove storie, fai clic sul pulsante \"Aggiungi elemento\"."
+
+#: admin/timeline-addon-page/includes/twae-get-started-content.php:53
+msgid "2. Add Timeline Stories"
+msgstr "2. Aggiungi storie alla timeline"
+
+#: admin/timeline-addon-page/includes/twae-get-started-content.php:34
+msgid "Adjust the layout of your timeline to match how you want your story to look."
+msgstr "Regola il layout della tua timeline per accordarlo a come vorresti che apparisse la tua storia."
+
+#: admin/timeline-addon-page/includes/twae-get-started-content.php:29
+msgid "Find the Story Timeline widget in Elementor and add it to your page."
+msgstr "Trova il widget Timeline storia in Elementor e aggiungilo alla tua pagina."
+
+#: admin/timeline-addon-page/includes/twae-get-started-content.php:24
+msgid "Start by creating a new page and opening it with Elementor for editing."
+msgstr "Inizia creando una nuova pagina e aprendola in Elementor per la modifica."
+
+#: admin/timeline-addon-page/includes/twae-get-started-content.php:17
+msgid "1. Getting Started"
+msgstr "1. Da dove cominciare"
+
+#: admin/timeline-addon-page/includes/dashboard-sidebar.php:35
+msgid "Premium Plugin Support"
+msgstr "Supporto premium per il plugin"
+
+#: admin/timeline-addon-page/includes/dashboard-sidebar.php:30
+msgid "For any query or support, please contact plugin support team."
+msgstr "Per qualsiasi richiesta o supporto, contatta il team di supporto del plugin."
+
+#. translators: %1$s: opening bold tag, %2$s: closing bold tag
+#: admin/timeline-addon-page/includes/dashboard-sidebar.php:26
+msgid "Our timeline plugins have %1$s50000+%2$s active installs."
+msgstr "I nostri plugin delle timeline hanno %1$spiù di 50000%2$s installazioni attive."
+
+#: admin/timeline-addon-page/includes/dashboard-sidebar.php:23
+msgid "Cool Plugins develops best timeline plugins for WordPress."
+msgstr "Cool Plugins sviluppa i migliori plugin delle timeline di WordPress."
+
+#: admin/timeline-addon-page/includes/dashboard-header.php:25
+msgid "Demos"
+msgstr "Demo"
+
+#: admin/timeline-addon-page/includes/dashboard-header.php:22
+msgid "Docs"
+msgstr "Documentazione"
+
+#: admin/feedback/twae-admin-feedback-form.php:295
+msgid "Please share your issue. So we can fix that for other users."
+msgstr "Ti invitiamo a condividere il tuo problema. Così potremo correggerlo anche per gli altri utenti."
+
+#: admin/feedback/twae-admin-feedback-form.php:281
+msgid "What did you expect?"
+msgstr "Cosa ti aspettavi?"
+
+#: admin/feedback/twae-admin-feedback-form.php:192
+msgid "Skip and Deactivate"
+msgstr "Salta e disattiva"
+
+#: admin/feedback/twae-admin-feedback-form.php:188
+msgid "Submit and Deactivate"
+msgstr "Invia e disattiva"
+
+#: admin/feedback/twae-admin-feedback-form.php:161
+msgid "or"
+msgstr "oppure"
+
+#: admin/feedback/twae-admin-feedback-form.php:155
+msgid "Please try"
+msgstr "Prova i plugin"
+
+#: admin/feedback/twae-admin-feedback-form.php:158
+msgid "Cool Timeline"
+msgstr "Cool Timeline"
+
+#: admin/feedback/twae-admin-feedback-form.php:164
+msgid "Timeline Block"
+msgstr "Timeline Block"
+
+#: admin/feedback/twae-admin-feedback-form.php:167
+msgid "plugin."
+msgstr "."
+
+#: includes/class-twae.php:58
+msgid "it is testing fine here"
+msgstr "il test sta andando bene fino a qui"
+
+#: includes/class-twae-wpml-translation.php:53
+msgid "Timeline: Label"
+msgstr "Timeline: Etichetta"
+
+#: includes/class-twae-wpml-translation.php:49
+msgid "Timeline: Year"
+msgstr "Timeline: Anno"
+
+#: includes/class-twae-wpml-translation.php:45
+msgid "Timeline: Desc"
+msgstr "Timeline: Descrizione"
+
+#: includes/class-twae-wpml-translation.php:41
+msgid "Timeline: Title"
+msgstr "Timeline: Titolo"
+
+#: includes/class-twae-wpml-translation.php:57
+msgid "Timeline: Sub Label"
+msgstr "Timeline: Sotto-etichetta"
+
+#: widgets/twae-widget.php:290
+msgid "Make all slides the same height based on the tallest slide"
+msgstr "Rendi tutte le slide della stessa altezza prendendo come riferimento quella più alta"
+
+#: widgets/twae-widget.php:242
+msgid "Slides To Show"
+msgstr "Slide da mostrare"
+
+#: widgets/twae-widget.php:125
+msgid "Layout"
+msgstr "Layout"
+
+#: widgets/twae-widget.php:116
+msgid "Layout Settings"
+msgstr "Impostazioni del layout"
+
+#: widgets/twae-widget.php:97
+msgid "Story Timeline"
+msgstr "Timeline della storia"
+
+#: admin/feedback-notice/twae-feedback-notice.php:97
+msgid "No, not good enough, i do not like to rate it!"
+msgstr "No, non mi piace abbastanza e non voglio valutarlo!"
+
+#: admin/feedback-notice/twae-feedback-notice.php:95
+msgid "Not Interested"
+msgstr "Non sono interessato"
+
+#: includes/class-twae.php:56
+msgid "Post Timeline"
+msgstr "Timeline di articoli"
+
+#: admin/feedback/twae-admin-feedback-form.php:134
+msgid "If you have a moment, please share why you are deactivating this plugin."
+msgstr "Se hai un momento, facci sapere perché stai disattivando questo plugin."
+
+#: admin/feedback/twae-admin-feedback-form.php:118
+msgid "Quick Feedback"
+msgstr "Feedback veloce"
+
+#: admin/feedback/twae-admin-feedback-form.php:107
+#: admin/feedback/twae-admin-feedback-form.php:308
+msgid "Please share the reason"
+msgstr "Condividi con noi il motivo"
+
+#: admin/feedback/twae-admin-feedback-form.php:105
+#: admin/feedback/twae-admin-feedback-form.php:306
+msgid "Other"
+msgstr "Altro"
+
+#: admin/feedback/twae-admin-feedback-form.php:98
+#: admin/feedback/twae-admin-feedback-form.php:300
+msgid "It's a temporary deactivation"
+msgstr "È una disattivazione temporanea"
+
+#: admin/feedback/twae-admin-feedback-form.php:91
+#: admin/feedback/twae-admin-feedback-form.php:293
+msgid "The plugin is not working"
+msgstr "Il plugin non funziona"
+
+#: admin/feedback/twae-admin-feedback-form.php:85
+#: admin/feedback/twae-admin-feedback-form.php:288
+msgid "Please share which plugin"
+msgstr "Dicci di che plugin si tratta"
+
+#: admin/feedback/twae-admin-feedback-form.php:83
+#: admin/feedback/twae-admin-feedback-form.php:286
+msgid "I found a better plugin"
+msgstr "Ho trovato un plugin migliore"
+
+#: admin/feedback/twae-admin-feedback-form.php:77
+#: admin/feedback/twae-admin-feedback-form.php:279
+msgid "The plugin didn't work as expected"
+msgstr "Il plugin non funziona come mi aspettavo"
+
+#. Author of the plugin
+#: timeline-widget-addon-for-elementor.php
+msgid "Cool Plugins"
+msgstr "Cool Plugins"
+
+#. Plugin URI of the plugin
+#: timeline-widget-addon-for-elementor.php
+msgid "https://coolplugins.net"
+msgstr "https://coolplugins.net"
+
+#: includes/class-twae.php:14
+msgid "Timeline Widget Addon For Elementor"
+msgstr "Timeline Widget Addon For Elementor"
+
+#. translators: 1: Plugin name 2: PHP 3: Required PHP version
+#: timeline-widget-addon-for-elementor.php:213
+msgid "<a href=\"%s\"  target=\"_blank\" >Elementor Page Builder</a>  must be installed and activated for \"<strong>Timeline Widget Addon For Elementor</strong>\" to work"
+msgstr "<a href=\"%s\"  target=\"_blank\" >Elementor Page Builder</a>  deve essere installato e attivato per permettere a \"<strong>Timeline Widget Addon For Elementor</strong>\" di funzionare"
+
+#: widgets/twae-widget.php:1471
+msgid "🔶 Label / Sub Label / Date"
+msgstr "🔶 Etichetta / Sotto-etichetta / Data"
+
+#: widgets/twae-widget.php:1436
+msgid "🅱 Button (Read More) - PRO"
+msgstr "🅱 Pulsante (Leggi tutto) - PRO"
+
+#: widgets/twae-widget.php:1413
+msgid "📺 Image / Media - PRO"
+msgstr "📺 Immagine / Media - PRO"
+
+#: widgets/twae-widget.php:1322
+msgid "Border Width"
+msgstr "Spessore del bordo"
+
+#: widgets/twae-widget.php:1309
+msgid "Border Color"
+msgstr "Colore del bordo"
+
+#: widgets/twae-widget.php:1216
+msgid "Multi Color"
+msgstr "Multicolore"
+
+#: widgets/twae-widget.php:1211
+msgid "Gradient"
+msgstr "Gradiente"
+
+#: widgets/twae-widget.php:1206
+msgid "Simple"
+msgstr "Semplice"
+
+#: widgets/twae-widget.php:1200
+msgid "Background Type"
+msgstr "Tipo di sfondo"
+
+#: widgets/twae-widget.php:1192
+msgid "Normal"
+msgstr "Normale"
+
+#: widgets/twae-widget.php:1065
+msgid "🔶 Description"
+msgstr "🔶 Descrizione"
+
+#: widgets/twae-widget.php:1008
+msgid "🔶 Title"
+msgstr "🔶 Titolo"
+
+#: widgets/twae-widget.php:935
+msgid "January 31"
+msgstr "31 gennaio"
+
+#: widgets/twae-widget.php:933
+msgid "2008"
+msgstr "2008"
+
+#: widgets/twae-widget.php:929
+msgid "Amazon acquires Audible"
+msgstr "Amazon acquista Audible"
+
+#: widgets/twae-widget.php:920 widgets/twae-widget.php:937
+msgid "Expanded"
+msgstr "Espansione"
+
+#: widgets/twae-widget.php:918
+msgid "February 2"
+msgstr "2 febbraio"
+
+#: widgets/twae-widget.php:912
+msgid "Amazon Prime debuts"
+msgstr "Debutta Amazon Prime"
+
+#: widgets/twae-widget.php:903
+msgid "Introduced"
+msgstr "Introduzione"
+
+#: widgets/twae-widget.php:901
+msgid "July 5"
+msgstr "5 luglio"
+
+#: widgets/twae-widget.php:895
+msgid "Amazon is born"
+msgstr "Nasce Amazon"
+
+#: widgets/twae-widget.php:863
+msgid "Colors"
+msgstr "Colori"
+
+#: widgets/twae-widget.php:582
+msgid "Dot"
+msgstr "Punto"
+
+#: widgets/twae-widget.php:571
+msgid "Text"
+msgstr "Testo"
+
+#: widgets/twae-widget.php:787
+msgid "Icon Type"
+msgstr "Tipo di icona"
+
+#: widgets/twae-widget.php:779
+msgid "Advanced"
+msgstr "Avanzato"
+
+#: widgets/twae-widget.php:561
+msgid "Video"
+msgstr "Video"
+
+#: widgets/twae-widget.php:546 widgets/twae-widget.php:576
+msgid "Image"
+msgstr "Immagine"
+
+#: widgets/twae-widget.php:646
+msgid "Label / Date"
+msgstr "Etichetta / Data"
+
+#: widgets/twae-widget.php:615
+msgid "Year / Label (Top)"
+msgstr "Anno / Etichetta (In alto)"
+
+#: widgets/twae-widget.php:288
+msgid "Slides Height"
+msgstr "Altezza della slide"
+
+#: widgets/twae-widget.php:257
+msgid "6 Slides"
+msgstr "6 slide"
+
+#: widgets/twae-widget.php:255
+msgid "5 Slides"
+msgstr "5 slide"
+
+#: widgets/twae-widget.php:253
+msgid "4 Slides"
+msgstr "4 slide"
+
+#: widgets/twae-widget.php:251
+msgid "3 Slides"
+msgstr "3 slide"
+
+#: widgets/twae-widget.php:249
+msgid "2 Slides"
+msgstr "2 slide"
+
+#: widgets/twae-widget.php:247
+msgid "1 Slide"
+msgstr "1 slide"
+
+#: widgets/twae-widget.php:229
+msgid "🔶 Horizontal Slides"
+msgstr "🔶 Slide orizzontali"
+
+#: widgets/twae-widget.php:170
+msgid "Content Alignment (Left)"
+msgstr "Allineamento contenuto (sinistra)"
+
+#: widgets/twae-widget.php:150 widgets/twae-widget.php:180
+msgid "Center"
+msgstr "Centrato"
+
+#: widgets/twae-widget.php:155 widgets/twae-widget.php:185
+msgid "Right"
+msgstr "A destra"
+
+#: widgets/twae-widget.php:145 widgets/twae-widget.php:175
+msgid "Left"
+msgstr "A sinistra"
+
+#: widgets/twae-widget.php:140
+msgid "Content Alignment"
+msgstr "Allineamento del contenuto"
+
+#: includes/class-twae-free-main.php:127
+msgid "PHP"
+msgstr "PHP"
+
+#. translators: 1: Plugin name 2: PHP 3: Required PHP version
+#: includes/class-twae-free-main.php:121
+msgid "\"%1$s\" requires \"%2$s\" version %3$s or greater."
+msgstr "\"%1$s\" richiede \"%2$s\" versione %3$s o superiore."
+
+#. Plugin Name of the plugin
+#: timeline-widget-addon-for-elementor.php
+msgid "Timeline Widget For Elementor"
+msgstr "Timeline Widget For Elementor"
+
+#: includes/class-twae-free-main.php:125
+msgid "Timeline Widget Pro For Elementor"
+msgstr "Timeline Widget Pro For Elementor"
+
+#: includes/class-twae-free-main.php:78
+msgid "Timeline Widgets"
+msgstr "Widget Timeline"
+
+#. Description of the plugin
+#: timeline-widget-addon-for-elementor.php
+msgid "Best timeline widget for Elementor page builder to showcase your personal or business stories in beautiful vertical or horizontal timeline layouts. <strong>[Elementor Addon]</strong>"
+msgstr "Il miglior widget timeline per il builder Elementor che ti permette di metter in mostra la tua storia personale, o quella della tua azienda, con dei bellissimi layout verticali od orizzontali. <strong>[Elementor Addon]</strong>"
+
+#: widgets/twae-widget.php:566
+msgid "Slideshow"
+msgstr "Presentazione"
+
+#: widgets/twae-widget.php:931
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+msgstr "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+
+#: widgets/twae-widget.php:916
+msgid "2005"
+msgstr "2005"
+
+#: widgets/twae-widget.php:914
+msgid "Aliter homines, aliter philosophos loqui putas oportere? Sin aliud quid voles, postea. Mihi enim satis est, ipsis non satis. Negat enim summo bono afferre incrementum diem. Quod ea non occurrentia fingunt, vincunt Aristonem."
+msgstr "Aliter homines, aliter philosophos loqui putas oportere? Sin aliud quid voles, postea. Mihi enim satis est, ipsis non satis. Negat enim summo bono afferre incrementum diem. Quod ea non occurrentia fingunt, vincunt Aristonem."
+
+#: widgets/twae-widget.php:899
+msgid "1994"
+msgstr "1994"
+
+#: widgets/twae-widget.php:897
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat enim res aperta. Ne discipulum abducam, times. Primum quid tu dicis breve? An haec ab eo non dicuntur?"
+msgstr "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat enim res aperta. Ne discipulum abducam, times. Primum quid tu dicis breve? An haec ab eo non dicuntur?"
+
+#: widgets/twae-widget.php:691
+msgid "Choose Image"
+msgstr "Scegli immagine"
+
+#: widgets/twae-widget.php:607 widgets/twae-widget.php:889
+msgid "Content"
+msgstr "Contenuto"
+
+#: widgets/twae-widget.php:620
+msgid "Hide"
+msgstr "Nascondi"
+
+#: widgets/twae-widget.php:591
+msgid "Timeline Stories"
+msgstr "Storie della timeline"
+
+#: widgets/twae-widget.php:694
+msgid "Image Size will not work with default image"
+msgstr "La dimensione dell'immagine non funzionerà con l'immagine predefinita"
+
+#: widgets/twae-widget.php:618
+msgid "Show"
+msgstr "Mostra"
+
+#: widgets/twae-widget.php:553
+msgid "Icon"
+msgstr "Icona"
+
+#: widgets/twae-widget.php:656
+msgid "Sub Label"
+msgstr "Sotto-etichetta"
+
+#: widgets/twae-widget.php:1228 widgets/twae-widget.php:1617
+msgid "Background Color"
+msgstr "Colore dello sfondo"
+
+#: widgets/twae-widget.php:969
+msgid "Line Color"
+msgstr "Colore della linea"
+
+#: widgets/twae-widget.php:765
+msgid "Description"
+msgstr "Descrizione"
+
+#: widgets/twae-widget.php:1033 widgets/twae-widget.php:1090
+#: widgets/twae-widget.php:1630
+msgid "Typography"
+msgstr "Tipografia"
+
+#: widgets/twae-widget.php:1018 widgets/twae-widget.php:1075
+#: widgets/twae-widget.php:1603
+msgid "Color"
+msgstr "Colore"
+
+#: widgets/twae-widget.php:666
+msgid "Title"
+msgstr "Titolo"
+
+#: widgets/twae-widget.php:269
+msgid "Autoplay"
+msgstr "Riproduzione automatica"
+
+#: widgets/twae-widget.php:1593
+msgid "🔶 Year/Label (On Line)"
+msgstr "🔶 Anno/Etichetta (In linea)"
+
+#: widgets/twae-widget.php:1046 widgets/twae-widget.php:1102
+#: widgets/twae-widget.php:1153
+msgid "Bottom Spacing"
+msgstr "Spaziatura inferiore"
+
+#: widgets/twae-widget.php:800
+msgid "FontAwesome Icon"
+msgstr "Icona FontAwesome"
+
+#: widgets/twae-widget.php:714
+msgid "Image Size will not work with dummy image."
+msgstr "La dimensione dell'immagine non funzionerà con l'immagine segnaposto."
+
+#: widgets/twae-widget.php:678
+msgid "Choose Media"
+msgstr "Scegli media"
+
+#: widgets/twae-widget.php:999
+msgid "#️⃣ Title / Desc "
+msgstr "#️⃣ Titolo / Descrizione "
+
+#: widgets/twae-widget.php:1275
+msgid "Hover"
+msgstr "Hover"
+
+#: widgets/twae-widget.php:1138
+msgid "Padding"
+msgstr "Rientro"
+
+#: widgets/twae-widget.php:1381
+msgid "Icon / Text Color"
+msgstr "Colore icona / testo"
+
+#: widgets/twae-widget.php:1369
+msgid "Icon / Dot Background"
+msgstr "Sfondo icona / punto"
+
+#: widgets/twae-widget.php:1360
+msgid "🔵 Icon Box / Dot"
+msgstr "🔵 Box icona / punto"
+
+#: widgets/twae-widget.php:1175
+msgid "🔶 Content Box Background"
+msgstr "🔶 Sfondo del box contenuto"
+
+#: widgets/twae-widget.php:1129
+msgid "🔳 Content Background / Border"
+msgstr "🔳 Sfondo / Bordo del contenuto"
+
+#: widgets/twae-widget.php:960
+msgid "📍 Line Settings"
+msgstr "📍 Impostazioni linea"
+
+#: widgets/twae-widget.php:206
+msgid "Icon / Labels Position"
+msgstr "Posizione icona / etichette"
+
+#: widgets/twae-widget.php:1643
+msgid "Year Box Size"
+msgstr "Dimensioni box anno"
+
+#: widgets/twae-widget.php:1563
+msgid "Sub Label Size"
+msgstr "Dimensioni sotto-etichetta"
+
+#: widgets/twae-widget.php:1551
+msgid "Sub Label Typography"
+msgstr "Tipografia sotto-etichetta"
+
+#: widgets/twae-widget.php:1537
+msgid "Sub Label Color"
+msgstr "Colore sotto-etichetta"
+
+#: widgets/twae-widget.php:1507
+msgid "Label Size"
+msgstr "Dimensione etichetta"
+
+#: widgets/twae-widget.php:1495
+msgid "Label Typography"
+msgstr "Tipografia etichetta"
+
+#: widgets/twae-widget.php:1481
+msgid "Label Color"
+msgstr "Colore etichetta"
+
+#: widgets/twae-widget.php:1462
+msgid "📢 Labels / Date / Year Box"
+msgstr "📢 Etichette / Data / Box anno"
+
+#: widgets/twae-widget.php:1299
+msgid "🔶 Content Box Border"
+msgstr "🔶 Bordo del box contenuto"
+
+#: widgets/twae-widget.php:631
+msgid "Year / Label Text"
+msgstr "Testo anno / etichetta"

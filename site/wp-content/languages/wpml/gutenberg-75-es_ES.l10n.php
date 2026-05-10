@@ -1,0 +1,2 @@
+<?php
+return ['messages'=>['/index.php/aboutus'=>'http://134.175.70.149/es/sobre-nosotros/','/index.php/smart-helmet/'=>'http://134.175.70.149/es/casco-inteligente/','/index.php/support'=>'http://134.175.70.149/da/support/','48d7608689f1634502910cf0ce88e4e2'=>'http://134.175.70.149/da/support/','a38bd85a66ea3209662eaff6e00d2632'=>'http://134.175.70.149/es/casco-inteligente/','de8f0a2db0e2068b222d3ccae4afa833'=>'http://134.175.70.149/es/sobre-nosotros/']];

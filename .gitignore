@@ -1,11 +1,46 @@
-.env.staging
-.env.prod
+.env
+.env.*
+!.env.example
+!deploy/.env.prod.example
+!deploy/.env.staging.example
 
-site/
+# Secrets and runtime-generated WordPress files
+site/wp-config.php
+site/wp-content/debug.log
+site/wp-content/cache/
+site/wp-content/upgrade/
+site/wp-content/upgrade-temp-backup/
+site/html/
+
+# User media and generated upload files; keep small generated CSS/placeholders only
+site/wp-content/uploads/*
+!site/wp-content/uploads/elementor/
+site/wp-content/uploads/elementor/*
+!site/wp-content/uploads/elementor/css/
+!site/wp-content/uploads/elementor/css/*.css
+!site/wp-content/uploads/mailpoet/
+!site/wp-content/uploads/mailpoet/index.php
+!site/wp-content/uploads/woocommerce_uploads/
+!site/wp-content/uploads/woocommerce_uploads/.htaccess
+!site/wp-content/uploads/woocommerce_uploads/index.html
+!site/wp-content/uploads/wpml/
+!site/wp-content/uploads/wpml/changelog.txt
+
+# Local deployment/runtime data
 mysql-init/
 ssl/
 tmp/
-
-*.tar.gz
-*.zip
+backups/
 bak/
+deploy/site/
+
+# Archives, database dumps, logs, OS noise
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.sql
+*.sql.gz
+*.log
+*.bak
+.DS_Store

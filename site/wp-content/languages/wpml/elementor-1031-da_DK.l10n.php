@@ -1,0 +1,2 @@
+<?php
+return ['messages'=>['Related Products'=>'Related Products','You may also like...'=>'You may also like...','You may be interested in...'=>'You may be interested in...','products_cross_sells_title_text-woocommerce-products-01a3372'=>'You may be interested in...','products_related_products_title_text-woocommerce-products-01a3372'=>'Related Products','products_upsells_title_text-woocommerce-products-01a3372'=>'You may also like...']];

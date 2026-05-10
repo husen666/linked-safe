@@ -1,0 +1,370 @@
+# Translation of Plugins - Insert Headers And Footers - Stable (latest release) in Danish
+# This file is distributed under the same license as the Plugins - Insert Headers And Footers - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-07-08 08:42:46+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: da_DK\n"
+"Project-Id-Version: Plugins - Insert Headers And Footers - Stable (latest release)\n"
+
+#: lib/wpb-sdk/views/wpb-debug.php:71
+msgid "Nonce verification failed"
+msgstr "Verificering mislykkedes"
+
+#: classes/class-setup.php:215
+msgid "Factory Reset:"
+msgstr "Fabriksindstilling:"
+
+#. Translators: The footer textarea description
+#: classes/class-setup.php:217
+msgid "Enable to remove all scripts and reset all settings made by Insert Headers and Footers upon saving."
+msgstr "Aktiver for at fjerne alle scripts og nulstille alle indstillinger foretaget af Indsæt sidehoveder og sidefødder ved lagring."
+
+#: classes/class-setup.php:222
+msgid "Remove Settings on Uninstall:"
+msgstr "Fjern indstillinger ved afinstallation:"
+
+#. Translators: The footer textarea description
+#: classes/class-setup.php:224
+msgid "Enable to remove all custom settings and scripts added by Insert Headers and Footers upon uninstall."
+msgstr "Aktiver for at fjerne alle brugerdefinerede indstillinger og scripts, der er tilføjet af Indsæt sidehoveder og sidefødder ved afinstallation."
+
+#. Translators: Opt Out
+#: classes/plugin-meta.php:96
+msgid "|  %1$s Opt Out %2$s "
+msgstr "|  %1$s fravælg %2$s "
+
+#. Translators: Opt In
+#: classes/plugin-meta.php:102
+msgid "|  %1$s Opt In %2$s "
+msgstr "|  %1$s Tilmeld dig %2$s "
+
+#: inc/hnf-optin-form.php:445
+msgid "Welcome to Headers and Footers"
+msgstr "Velkommen til Headers and Footers"
+
+#. Translators: Welcome text
+#: inc/hnf-optin-form.php:452
+msgid "%1$s Hey %2$s,  %4$s If you opt-in some data about your installation of WP Headers And Footers will be sent to WPBrigade.com (This doesn't include stats)%4$s and You will receive new feature updates, security notifications etc %5$sNo Spam, I promise.%6$s %4$s%4$s Help us %7$sImprove Headers and Footers%8$s %4$s %4$s "
+msgstr "%1$s Hej %2$s, %4$s Hvis du tilmelder dig, vil nogle data om din installation af WP Headers And Footers blive sendt til WPBrigade.com (Dette inkluderer ikke statistik)%4$s og du vil modtage nye funktionsopdateringer, sikkerhedsmeddelelser osv. %5$sIngen spam, jeg lover. %6$s %4$s%4$s Hjælp os med at %7$sforbedre sidehoveder og sidefødder%8$s %4$s %4$s "
+
+#: inc/hnf-optin-form.php:462
+msgid "Allow and Continue  "
+msgstr "Tillad og fortsæt  "
+
+#: inc/hnf-optin-form.php:463
+msgid "Skip This Step"
+msgstr "Spring dette trin over"
+
+#: inc/hnf-optin-form.php:466
+msgid "Your Website Overview"
+msgstr "Oversigt over din hjemmeside"
+
+#: inc/hnf-optin-form.php:467
+msgid "Your Site URL, WordPress & PHP version, plugins & themes. This data lets us make sure this plugin always stays compatible with the most popular plugins and themes."
+msgstr "Din websteds-URL, WordPress & PHP-version, plugins og temaer. Disse data giver os mulighed for at sikre, at dette plugin altid forbliver kompatibelt med de mest populære plugins og temaer."
+
+#: inc/hnf-optin-form.php:469
+msgid "Your Profile Overview"
+msgstr "Oversigt over din profil"
+
+#: inc/hnf-optin-form.php:470
+msgid "Your name and email address."
+msgstr "Dit navn og din e-mailadresse."
+
+#: inc/hnf-optin-form.php:472
+msgid "Admin Notices"
+msgstr "Administrator noter"
+
+#: inc/hnf-optin-form.php:473
+msgid "Updates, Announcement, Marketing. No Spam, I promise."
+msgstr "Opdateringer, Meddelelse, Markedsføring. Ingen spam, det lover jeg."
+
+#: inc/hnf-optin-form.php:475
+msgid "Plugin Actions"
+msgstr "Plugin-handlinger"
+
+#: inc/hnf-optin-form.php:476
+msgid "Active, Deactive, Uninstallation and How you use this plugin's features and settings. This is limited to usage data. It does not include any of your sensitive headerandfooter data, such as traffic. This data helps us learn which features are most popular, so we can improve the plugin further."
+msgstr "Aktivere, deaktivere, afinstallere og hvordan du bruger dette plugins funktioner og indstillinger. Dette er begrænset til brugsdata. Det inkluderer ikke nogen af dine følsomme headerandfooter-data, såsom trafik. Disse data hjælper os med at lære, hvilke funktioner der er mest populære, så vi kan forbedre plugin'et yderligere."
+
+#: wp-headers-and-footers.php:171
+msgid "Activate"
+msgstr "Aktiver"
+
+#: wp-headers-and-footers.php:208
+msgid "Sorry, you are not allowed to edit this item."
+msgstr "Beklager, men du har ikke tilladelse til, at rediger dette element."
+
+#. Translators: Diagnostic
+#: classes/class-setup.php:285
+msgid "Diagnostic %1$sLog%2$s"
+msgstr "Diagnostisk %1$slog%2$s"
+
+#: classes/class-setup.php:243
+msgid "Insert Headers And Footers"
+msgstr "Indsæt sidehoveder og sidefødder"
+
+#: classes/class-diagnostics-log.php:131
+msgid "Download Log File"
+msgstr "Download logfil"
+
+#: classes/class-diagnostics-log.php:134
+msgid "WP Headers and Footers Log File Downloaded Successfully!"
+msgstr "WP Headers og Footers logfilen blev downloadet!"
+
+#: classes/class-setup.php:142
+msgid "Help & Troubleshooting"
+msgstr "Hjælp og fejlfinding"
+
+#. Plugin URI of the plugin
+#: wp-headers-and-footers.php
+msgid "https://www.WPBrigade.com/wordpress/plugins/wp-headers-and-footers/?utm_source=?utm_source=wp-headers-and-footers&utm_medium=author-uri-link"
+msgstr "https://www.WPBrigade.com/wordpress/plugins/wp-headers-and-footers/?utm_source=?utm_source=wp-headers-and-footers&utm_medium=author-uri-link"
+
+#. Author URI of the plugin
+#: wp-headers-and-footers.php
+msgid "https://wpbrigade.com/?utm_source=wp-headers-and-footers&utm_medium=author-uri-link"
+msgstr "https://wpbrigade.com/?utm_source=wp-headers-and-footers&utm_medium=author-uri-link"
+
+#: classes/class-settings-api.php:568
+msgid "LoginPress: Login Page Customizer"
+msgstr "LoginPress: Tilpasning af loginside"
+
+#: classes/class-settings-api.php:574
+msgid "Analytify: Google Analytics for WordPress "
+msgstr "Analytify: Google Analytics til WordPress "
+
+#: classes/class-notifications.php:135
+msgid "Leave A Review?"
+msgstr "Efterlad en anmeldelse?"
+
+#: classes/class-notifications.php:136
+msgid "We hope you've enjoyed using Inline Headers And Footers! Would you consider leaving us a review on WordPress.org?"
+msgstr "Vi håber, du har nydt at bruge Inline Sidehoveder og Footers! Vil du overveje at give os en anmeldelse på WordPress.org?"
+
+#: classes/class-notifications.php:138
+msgid "Sure! I'd love to!"
+msgstr "Sikker! Det vil jeg meget gerne!"
+
+#: classes/class-notifications.php:139
+msgid "I've already left a review"
+msgstr "Jeg har allerede anmeldt"
+
+#: classes/class-notifications.php:140
+msgid "Maybe Later"
+msgstr "Måske senere"
+
+#: classes/class-notifications.php:141
+msgid "Never show again"
+msgstr "Vis aldrig igen"
+
+#: classes/class-setup.php:133
+msgid "Scripts"
+msgstr "Scripts"
+
+#: classes/class-setup.php:138
+msgid "Set your priorities for each script tag."
+msgstr "Angiv dine prioriteter for hvert script-tag."
+
+#: classes/class-setup.php:185
+msgid "Header's Priority:"
+msgstr "Overskriftens prioritet:"
+
+#. Translators: The header textarea description
+#: classes/class-setup.php:187
+msgid "The priority for %1$s section. %2$sDefault is 10%3$s"
+msgstr "Prioriteten for %1$s afsnit. %2$sStandard er 10%3$s"
+
+#: classes/class-setup.php:195
+msgid "Body's Priority:"
+msgstr "Brødtekst prioritet:"
+
+#. Translators: The body textarea description
+#. Translators: The footer textarea description
+#: classes/class-setup.php:197 classes/class-setup.php:207
+msgid "The priority for %1$s tag. %2$sDefault is 10%3$s"
+msgstr "Prioriteten for %1$s tag. %2$sStandard er 10%3$s"
+
+#: classes/class-setup.php:205
+msgid "Footer's Priority:"
+msgstr "Sidefodens prioritet:"
+
+#: classes/class-setup.php:289
+msgid "Support"
+msgstr "Support"
+
+#: lib/wpb-sdk/views/wpb-sdk-deactivate-form.php:108
+msgid "Quick feedback about "
+msgstr "Hurtig feedback om "
+
+#: lib/wpb-sdk/views/wpb-sdk-deactivate-form.php:111
+msgid "If you have a moment, please let us know why you are deactivating:"
+msgstr "Hvis du har et øjeblik, så lad os venligst vide, hvorfor du deaktiverer:"
+
+#: lib/wpb-sdk/views/wpb-sdk-deactivate-form.php:116
+msgid "I only needed the plugin for a short period"
+msgstr "Jeg bare skulle bruge pluginnet for en kort periode"
+
+#: lib/wpb-sdk/views/wpb-sdk-deactivate-form.php:123
+msgid "I found a better plugin"
+msgstr "Jeg fandt et bedre plugin"
+
+#: lib/wpb-sdk/views/wpb-sdk-deactivate-form.php:127
+msgid "Kindly tell us the name of plugin"
+msgstr "Fortæl os venligst navnet på plugin'et"
+
+#: lib/wpb-sdk/views/wpb-sdk-deactivate-form.php:128
+msgid "What's the plugin's name?"
+msgstr "Hvad er navnet på det plugin?"
+
+#: lib/wpb-sdk/views/wpb-sdk-deactivate-form.php:134
+msgid "The plugin broke my site"
+msgstr "Pluginnet ødelagde mit websted"
+
+#: lib/wpb-sdk/views/wpb-sdk-deactivate-form.php:141
+msgid "The plugin suddenly stopped working"
+msgstr "Plugin pludselig holdt op med at arbejde"
+
+#: lib/wpb-sdk/views/wpb-sdk-deactivate-form.php:148
+msgid "I no longer need the plugin"
+msgstr "Jeg behøver ikke længere dette plugin"
+
+#: lib/wpb-sdk/views/wpb-sdk-deactivate-form.php:155
+msgid "It's a temporary deactivation. I'm just debugging an issue."
+msgstr "Det er en midlertidig deaktivering. Jeg fejlfinder bare et problem."
+
+#: lib/wpb-sdk/views/wpb-sdk-deactivate-form.php:162
+msgid "Other"
+msgstr "Andet"
+
+#: lib/wpb-sdk/views/wpb-sdk-deactivate-form.php:166
+msgid "Kindly tell us the reason so we can improve."
+msgstr "Fortæl os venligst hvorfor, så vi kan blive bedre."
+
+#: lib/wpb-sdk/views/wpb-sdk-deactivate-form.php:167
+msgid "Would you like to share what's other reason?"
+msgstr "Vil du dele, hvad der er en anden grund?"
+
+#: lib/wpb-sdk/views/wpb-sdk-deactivate-form.php:175
+msgid "Anonymous feedback"
+msgstr "Anonym feedback"
+
+#: lib/wpb-sdk/views/wpb-sdk-deactivate-form.php:182
+msgid "Cancel"
+msgstr "Annuller"
+
+#. Plugin Name of the plugin
+#: wp-headers-and-footers.php
+msgid "WP Headers And Footers"
+msgstr "WP Headers And Footers"
+
+#: classes/class-setup.php:169
+msgid "Scripts in Body"
+msgstr "Scripts i brødtekst"
+
+#. Translators: The body textarea description
+#. Translators: The footer textarea description
+#: classes/class-setup.php:171 classes/class-setup.php:178
+msgid "These scripts will be printed below the %1$s tag."
+msgstr "Disse scripts eksekveret under %1$s tagget."
+
+#: classes/class-settings-api.php:580
+msgid "Simple Social Buttons"
+msgstr "Simple SoMe-knapper"
+
+#: classes/class-settings-api.php:585
+msgid "Under Construction & Maintenance mode"
+msgstr "Under konstruktion og vedligeholdelsestilstand"
+
+#: classes/plugin-meta.php:57
+msgid "Vote!"
+msgstr "Stem!"
+
+#: classes/plugin-meta.php:60
+msgid "Rate"
+msgstr "Bedøm"
+
+#. Translators: Settings tab
+#: classes/plugin-meta.php:85
+msgid "%1$s Settings %2$s"
+msgstr "%1$s Indstillinger %2$s"
+
+#: classes/class-settings-api.php:374
+msgid "Choose File"
+msgstr "Vælg fil"
+
+#: classes/class-setup.php:83
+msgid "WP Headers and Footers"
+msgstr "WP Headers and Footers"
+
+#: classes/class-setup.php:137
+msgid "Settings"
+msgstr "Indstillinger"
+
+#: classes/class-setup.php:162
+msgid "Scripts in Header"
+msgstr "Scripts i sidehoved"
+
+#. Translators: The header textarea description
+#: classes/class-setup.php:164
+msgid "These scripts will be printed in the %1$s section."
+msgstr "Disse scripts vil blive eksekveret i %1$s-sektionen."
+
+#: classes/class-setup.php:176
+msgid "Scripts in Footer"
+msgstr "Scripts i sidefod"
+
+#. Description of the plugin
+#: wp-headers-and-footers.php
+msgid "Allows you to insert code or text in the header or footer of your WordPress site."
+msgstr "Giver dig mulighed for at indsætte kode eller tekst i sidehovedet eller sidefoden på dit WordPress-websted."
+
+#. Author of the plugin
+#: wp-headers-and-footers.php
+msgid "WPBrigade"
+msgstr "WPBrigade"
+
+#: classes/class-settings-api.php:540
+msgid "Spread the Word"
+msgstr "Spred budskabet"
+
+#: classes/class-settings-api.php:543
+msgid "Post to Twitter Now"
+msgstr "Post på Twitter"
+
+#: classes/class-settings-api.php:544
+msgid "Share on X/Twitter"
+msgstr "Del på X/Twitter"
+
+#: classes/class-settings-api.php:549
+msgid "Share with your facebook friends about this awesome plugin"
+msgstr "Del dette fantastiske plugin på med dine Facebook-venner"
+
+#: classes/class-settings-api.php:550
+msgid "Share on Facebook"
+msgstr "Del på Facebook"
+
+#: classes/class-settings-api.php:556
+msgid "Rate on WordPress.org"
+msgstr "Bedøm på WordPress.org"
+
+#: classes/class-settings-api.php:563
+msgid "Recommended Plugins"
+msgstr "Anbefalede plugin'er"
+
+#: classes/class-settings-api.php:567
+msgid "Customize your login screen"
+msgstr "Tilpas din login-skærm"
+
+#: classes/class-settings-api.php:573
+msgid "Share with your facebook friends about this awesome plugin."
+msgstr "Del dette fantastiske plugin på med dine Facebook-venner."
+
+#: classes/class-settings-api.php:579 classes/class-settings-api.php:584
+msgid "Socialize your Website"
+msgstr "Socialiser din hjemmeside"

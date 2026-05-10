@@ -1,0 +1,410 @@
+# Translation of Plugins - Pinterest for WooCommerce - Stable (latest release) in Japanese
+# This file is distributed under the same license as the Plugins - Pinterest for WooCommerce - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-09-07 13:34:23+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.3\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - Pinterest for WooCommerce - Stable (latest release)\n"
+
+#: src/API/FeedState.php:293
+msgid "Pinterest tag"
+msgstr "Pinterest タグ"
+
+#. Translators: 1: Request method 2: Request endpoint 3: Response status code
+#. 4: Response message 5: Pinterest code
+#: src/API/Base.php:103
+msgid ""
+"%1$s Request: %2$s\n"
+"Status Code: %3$s\n"
+"API response: %4$s\n"
+"Pinterest Code: %5$s"
+msgstr ""
+"%1$s リクエスト：%2$s\n"
+"ステータスコード：%3$s\n"
+"API レスポンス%4$s\n"
+"Pinterest コード：%5$s"
+
+#: src/Notes/Collection/AbstractCompleteOnboarding.php:72
+msgid "Complete setup"
+msgstr "設定を完了しましょう"
+
+#: src/Notes/Collection/CatalogSyncErrors.php:82
+msgid "Review issues affecting your connection with Pinterest"
+msgstr "Pinterest とのリンクに影響している問題を確認してください"
+
+#: src/Notes/Collection/CatalogSyncErrors.php:92
+msgid "Your product sync to Pinterest was unsuccessful. To complete your connection, Review and resolve issues in the extension."
+msgstr "商品が Pinterest に同期されませんでした。リンクを完了するには、拡張機能の問題を確認し、解決してください。"
+
+#: src/Notes/Collection/CatalogSyncErrors.php:104
+msgid "Review issues"
+msgstr "問題を確認"
+
+#: src/Notes/Collection/CompleteOnboardingAfterThreeDays.php:31
+msgid "Reach more shoppers by connecting with Pinterest"
+msgstr "Pinterest にリンクしてもっと多くのユーザーにアプローチ"
+
+#: src/Notes/Collection/CompleteOnboardingAfterThreeDays.php:41
+msgid "Complete setting up Pinterest for WooCommerce to get your catalog in front of a large, engaged audience who are ready to buy! Create or connect your Pinterest business account to sync your product catalog and turn your products into shoppable Pins."
+msgstr "Pinterest for WooCommerce の設定を完了して、購入を検討しているたくさんのエンゲージしたオーディエンスにカタログを表示しましょう。Pinterest のビジネスアカウントを作成またはリンクして、商品カタログを同期し、商品を購入可能なピンにすることができます。"
+
+#: src/Notes/Collection/CompleteOnboardingReminderAfterSevenDays.php:31
+msgid "Reminder: Connect Pinterest for WooCommerce"
+msgstr "リマインダー：Pinterest for WooCommerce をリンクしてください"
+
+#: src/Notes/Collection/CompleteOnboardingReminderAfterSevenDays.php:41
+msgid "Finish setting up Pinterest for WooCommerce to reach over 400 million shoppers and inspire their next purchase."
+msgstr "Pinterest for WooCommerce の設定を完了して、4 億人以上のユーザーにリーチし、購入を検討してもらいましょう。"
+
+#: src/Notes/Collection/EnableCatalogSync.php:62
+msgid "Notice: Your products aren’t synced on Pinterest"
+msgstr "注意：商品が Pinterest に同期されていません"
+
+#: src/Notes/Collection/EnableCatalogSync.php:72
+msgid "Your Catalog sync with Pinterest has been disabled. Select “Enable Product Sync” to sync your products and reach shoppers on Pinterest."
+msgstr "カタログの Pinterest への同期が無効になっています。「商品の同期を有効にする」を選んで商品を同期し、Pinterest のユーザーにリーチしましょう。"
+
+#: src/Notes/Collection/EnableCatalogSync.php:84
+msgid "Enable Sync"
+msgstr "同期を有効にする"
+
+#: class-pinterest-for-woocommerce.php:166
+msgid "Cloning this class is forbidden."
+msgstr "このクラスの複製は禁止されています。"
+
+#: includes/admin/class-pinterest-for-woocommerce-admin.php:504
+msgid "Cheatin' huh?"
+msgstr "不正ではありませんか？"
+
+#: views/inputs/google-category.php:36
+msgid "Search for a category…"
+msgstr "カテゴリーを検索 ..."
+
+#: class-pinterest-for-woocommerce.php:175
+msgid "Deserializing instances of this class is forbidden."
+msgstr "このクラスのインスタンスをデシリアライズすることは禁止されています。"
+
+#: src/API/Settings.php:68
+msgid "Missing option parameters."
+msgstr "オプションのパラメータがありません。"
+
+#: src/API/Settings.php:74
+msgid "There was an error saving the settings."
+msgstr "設定を保存できませんでした。"
+
+#. Translators: The minimum Action Scheduler version
+#: class-pinterest-for-woocommerce.php:450
+msgid "Pinterest for WooCommerce requires a minimum Action Scheduler package of %s. It can be caused by old version of the WooCommerce extensions."
+msgstr "Pinterest for WooCommerce には %s 以降の Action Scheduler パッケージが必要です。古いバージョンの WooCommerce 拡張機能が原因となっている可能性があります。"
+
+#: src/FeedGenerator.php:249
+msgid "Feed generation queued."
+msgstr "フィードの作成を待機中です。"
+
+#: src/FeedGenerator.php:260
+msgid "Feed generation start. Preparing temporary files."
+msgstr "フィードの作成を開始します。一時ファイルを準備中です。"
+
+#: src/FeedGenerator.php:307
+msgid "Feed generation end. Moving files to the final destination."
+msgstr "フィードの作成を終了します。ファイルを最終的な移動先に転送中です。"
+
+#: src/FeedGenerator.php:322
+msgid "Feed generated successfully."
+msgstr "フィードが正常に作成されました。"
+
+#. translators: error message with file path
+#: src/FeedFileOperations.php:104
+msgid "Could not open temporary file %s for writing"
+msgstr "書き込み用の一時ファイル「%1$s」を開けませんでした"
+
+#. translators: error message with file path
+#: src/FeedFileOperations.php:115
+msgid "Temporary file: %s is not writeable."
+msgstr "一時ファイル：「%1$s」に書き込むことはできません。"
+
+#. translators: 1: temporary file name 2: final file name
+#: src/FeedFileOperations.php:137
+msgid "Could not rename %1$s to %2$s"
+msgstr "ファイル名「%1$s」を「%2$s」に変更できませんでした"
+
+#: src/Admin/Product/Attributes/AttributesForm.php:133
+msgid "Default"
+msgstr "デフォルト"
+
+#: src/Admin/Product/Attributes/Input/ConditionInput.php:27
+msgid "Condition"
+msgstr "コンディション"
+
+#: src/Admin/Product/Attributes/Input/ConditionInput.php:28
+msgid "Condition or state of the item."
+msgstr "アイテムの状態。"
+
+#: src/Admin/Product/Attributes/Input/GoogleCategoryInput.php:27
+msgid "Google Category"
+msgstr "Google カテゴリ"
+
+#: src/Admin/Product/Attributes/Input/GoogleCategoryInput.php:28
+msgid "Categorization of the product based on the standardized Google Product Taxonomy."
+msgstr "標準化されたGoogle 商品用語リストに基づいた商品の分類。"
+
+#: src/API/AdvertiserConnect.php:58
+msgid "Missing advertiser or tag parameters."
+msgstr "広告主またはタグパラメータが入力されていません。"
+
+#: src/API/AdvertiserConnect.php:160 src/API/AdvertiserConnect.php:172
+msgid "The advertiser could not be disconnected from Pinterest."
+msgstr "広告主と Pinterest のリンクを解除できませんでした。"
+
+#. translators: 1: Time string, 2: number of products, 3: opening anchor tag,
+#. 4: closing anchor tag
+#: src/API/FeedState.php:143
+msgid "Last activity: %1$s ago - Wrote %2$s product to %3$sfeed file%4$s."
+msgid_plural "Last activity: %1$s ago - Wrote %2$s products to %3$sfeed file%4$s."
+msgstr[0] "最後のアクティビティ：%1$s 前 - %2$s 件の商品を%3$sフィードファイル%4$sに書き込みました。"
+
+#. translators: 1: Time string, 2: total number of products, 3: opening anchor
+#. tag, 4: closing anchor tag
+#: src/API/FeedState.php:163
+msgid "Successfully generated %1$s ago - Wrote %2$s product to %3$sfeed file%4$s"
+msgid_plural "Successfully generated %1$s ago - Wrote %2$s products to %3$sfeed file%4$s"
+msgstr[0] "%1$s 前に正常に生成 - %2$s 件の商品を%3$sフィードファイル%4$sに書き込みました"
+
+#: src/API/FeedState.php:420
+msgid "The feed is queued for processing."
+msgstr "フィードは処理を待機中です。"
+
+#: src/Merchants.php:72
+msgid "Wrong response when trying to create or update merchant."
+msgstr "マーチャントを作成または更新する際にエラーが発生しました。"
+
+#: src/Merchants.php:80
+msgid "There was an error trying to get the merchant object."
+msgstr "マーチャントのオブジェクトを取得できませんでした。"
+
+#: src/Product/Attributes/Condition.php:48
+msgid "New"
+msgstr "新機能"
+
+#: src/Product/Attributes/Condition.php:49
+msgid "Refurbished"
+msgstr "再生品"
+
+#: src/Product/Attributes/Condition.php:50
+msgid "Used"
+msgstr "ユーズド"
+
+#: views/attributes/tab-panel.php:30
+msgid "Product attributes"
+msgstr "商品の属性"
+
+#: views/attributes/tab-panel.php:31
+msgid "As this is a variable product, you can add additional product attributes by going to Variations > Select one variation > Pinterest."
+msgstr "これはバリエーションがある商品です。「バリエーション」>バリエーションを 1 つ選択 >「Pinterest」にアクセスして商品の属性を追加することができます。"
+
+#. Plugin Name of the plugin
+#: pinterest-for-woocommerce.php
+#: src/MultichannelMarketing/PinterestChannel.php:63
+msgid "Pinterest for WooCommerce"
+msgstr "Pinterest for WooCommerce"
+
+#. Plugin URI of the plugin
+#: pinterest-for-woocommerce.php
+msgid "https://woocommerce.com/products/pinterest-for-woocommerce/"
+msgstr "https://woocommerce.com/products/pinterest-for-woocommerce/"
+
+#. Description of the plugin
+#: pinterest-for-woocommerce.php
+#: src/MultichannelMarketing/PinterestChannel.php:72
+msgid "Grow your business on Pinterest! Use this official plugin to allow shoppers to Pin products while browsing your store, track conversions, and advertise on Pinterest."
+msgstr "Pinterest でビジネスを拡大しましょうこの公式プラグインを使用すると、ユーザーがストアをブラウズしているときに商品をピンできるようになります。また、コンバージョンの追跡と Pinterest での広告掲載も可能になります。"
+
+#. Author of the plugin
+#: pinterest-for-woocommerce.php
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#. Author URI of the plugin
+#: pinterest-for-woocommerce.php
+msgid "https://woocommerce.com"
+msgstr "https://woocommerce.com"
+
+#: class-pinterest-for-woocommerce.php:183
+msgid "Only a single instance of this class is allowed. Use singleton."
+msgstr "このクラスのインスタンスは 1 つのみ許可されます。シングルトンを使用して下さい。"
+
+#: class-pinterest-for-woocommerce.php:445
+msgid "Pinterest for WooCommerce requires WooCommerce Admin to be enabled."
+msgstr "Pinterest for WooCommerce では WooCommerce 管理者を有効にする必要があります。"
+
+#: class-pinterest-for-woocommerce.php:1295
+msgid "Pinterest for WooCommerce verification page"
+msgstr "Pinterest for WooCommerce 認証ページ"
+
+#: includes/admin/class-pinterest-for-woocommerce-admin.php:64
+#: includes/admin/class-pinterest-for-woocommerce-admin.php:68
+#: includes/admin/class-pinterest-for-woocommerce-admin.php:95
+#: includes/admin/class-pinterest-for-woocommerce-admin.php:99
+#: includes/admin/class-pinterest-for-woocommerce-admin.php:217
+#: includes/admin/class-pinterest-for-woocommerce-admin.php:224
+#: views/attributes/variations-form.php:32 assets/build/setup-guide.js:19
+#: assets/source/setup-guide/index.js:52
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: includes/admin/class-pinterest-for-woocommerce-admin.php:79
+#: assets/build/setup-guide.js:10
+#: assets/source/components/navigation-classic/main-tab-nav.js:16
+msgid "Catalog"
+msgstr "カタログ"
+
+#: includes/admin/class-pinterest-for-woocommerce-admin.php:110
+#: includes/admin/class-pinterest-for-woocommerce-admin.php:158
+msgid "Setup Pinterest"
+msgstr "Pinterest を設定する"
+
+#: includes/admin/class-pinterest-for-woocommerce-admin.php:127
+#: assets/build/setup-guide.js:10 assets/build/setup-guide.js:19
+#: assets/source/components/navigation-classic/main-tab-nav.js:26
+#: assets/source/setup-guide/index.js:82
+msgid "Connection"
+msgstr "リンク"
+
+#: includes/admin/class-pinterest-for-woocommerce-admin.php:140
+#: assets/build/setup-guide.js:10 assets/build/setup-guide.js:19
+#: assets/source/components/navigation-classic/main-tab-nav.js:21
+#: assets/source/setup-guide/index.js:95
+msgid "Settings"
+msgstr "設定"
+
+#: includes/admin/class-pinterest-for-woocommerce-admin.php:170
+msgid "Landing page"
+msgstr "ランディングページ"
+
+#. translators: 1: composer command. 2: plugin directory
+#: pinterest-for-woocommerce.php:81 pinterest-for-woocommerce.php:99
+msgid "Your installation of the Pinterest for WooCommerce plugin is incomplete. Please run %1$s within the %2$s directory."
+msgstr "Pinterest for WooCommerce のプラグインのインストールが完了していません。%2$s ディレクトリ内で %1$s を実行してください。"
+
+#: src/API/Tags.php:56 src/PinterestSyncSettings.php:119
+msgid "Response error"
+msgstr "レスポンスエラー"
+
+#: src/API/Auth.php:73
+msgid "Something went wrong with your attempt to authorize this App. Please try again."
+msgstr "アプリの承認にエラーが発生しました。再度お試しください。"
+
+#: src/API/Base.php:358
+msgid "Empty body"
+msgstr "本文がありません"
+
+#: src/API/Base.php:433 src/API/Base.php:818 src/Merchants.php:141
+msgid "Auto-created by Pinterest for WooCommerce"
+msgstr "Pinterest for WooCommerce が自動作成しました"
+
+#: src/API/FeedIssues.php:93
+msgid "Invalid product"
+msgstr "商品が無効です"
+
+#: src/API/FeedIssues.php:100
+msgid "(Variation)"
+msgstr "（バリエーション）"
+
+#: src/API/FeedState.php:92 src/API/FeedState.php:200
+msgid "XML feed"
+msgstr "XML フィード"
+
+#: src/API/FeedState.php:94
+msgid "Product sync is disabled."
+msgstr "商品の同期が無効です。"
+
+#. translators: 1: The URL of the settings page
+#: src/ProductSync.php:188
+msgid "Visit the <a href=\"%1$s\">settings</a> page to enable it."
+msgstr "「<a href=\"%1$s\">設定</a>」ページにアクセスして有効にしてください。"
+
+#: src/API/FeedState.php:139
+msgid "Feed generation in progress."
+msgstr "フィードを作成中です。"
+
+#: src/API/FeedState.php:159
+msgid "Up to date"
+msgstr "最新版"
+
+#: src/API/FeedState.php:179
+msgid "Feed generation will start shortly."
+msgstr "まもなくフィードの作成が開始します。"
+
+#: src/API/FeedState.php:184
+msgid "Feed configuration will start shortly."
+msgstr "まもなくフィードの設定が開始します。"
+
+#: src/API/FeedState.php:189
+msgid "Could not get feed info."
+msgstr "フィードの情報を取得できませんでした。"
+
+#. Translators: %1$s Time string, %2$s error message
+#: src/API/FeedState.php:192
+msgid "Last activity: %1$s ago - %2$s"
+msgstr "前回のアクティビティ：%1$s 前 - %2$s"
+
+#: src/API/FeedState.php:224 src/API/FeedState.php:232
+msgid "Product feed not yet configured on Pinterest."
+msgstr "Pinterest で商品フィードがまだ設定されていません。"
+
+#: src/API/FeedState.php:252
+msgid "Product feed configured for ingestion on Pinterest"
+msgstr "Pinterest での取得用に設定された商品フィード"
+
+#: src/API/FeedState.php:261
+msgid "Product feed pending approval on Pinterest."
+msgstr "Pinterest で承認待ちの商品フィード。"
+
+#: src/API/FeedState.php:240
+msgid "Product feed declined by Pinterest"
+msgstr "Pinterest が承認を却下した商品フィード"
+
+#: src/API/FeedState.php:265
+msgid "Remote feed setup"
+msgstr "リモートのフィード設定"
+
+#: src/API/FeedState.php:418
+msgid "Processing"
+msgstr "処理中"
+
+#: src/API/FeedState.php:424
+msgid "Feed is under review."
+msgstr "フィードは審査中です。"
+
+#: src/API/FeedState.php:366
+msgid "Remote sync status"
+msgstr "リモート同期のステータス"
+
+#: src/API/Tags.php:50
+msgid "Advertiser missing"
+msgstr "広告主が入力されていません"
+
+#: src/API/Tags.php:65
+msgid "Could not create a tag. Please check the logs for additional information."
+msgstr "タグを作成できませんでした。ログで詳細情報を確認してください。"
+
+#: src/Crypto.php:95 src/Crypto.php:139
+msgid "Could not decrypt key value. Try reconnecting to Pinterest."
+msgstr "キーの値を復号できません。Pinterest に再接続して下さい。"
+
+#: src/Merchants.php:85 src/Merchants.php:183
+msgid "Response error when trying to create a merchant or update the existing one."
+msgstr "マーチャントの新規作成または既存のマーチャントの更新の際にレスポンスエラーが発生しました。"
+
+#: src/Merchants.php:108
+msgid "Response error when trying to get advertisers."
+msgstr "広告主を見つける際にレスポンスエラーが発生しました。"
+
+#: src/Merchants.php:114
+msgid "No merchant returned in the advertiser's response."
+msgstr "広告主のレスポンスに返信したマーチャントはいませんでした。"

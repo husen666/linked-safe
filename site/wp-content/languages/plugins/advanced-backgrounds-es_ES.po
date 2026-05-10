@@ -1,0 +1,311 @@
+# Translation of Plugins - Advanced WordPress Backgrounds - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Advanced WordPress Backgrounds - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-04-24 20:09:33+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.3\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Advanced WordPress Backgrounds - Stable (latest release)\n"
+
+#. translators: %s: regenerate thumbnails url.
+#: classes/class-settings.php:163
+msgid "After publishing your changes, new image sizes may not be shown until you <a href=\"%s\" target=\"_blank\">Regenerate Thumbnails</a>."
+msgstr "Después de publicar tus cambios, puede que los nuevos tamaños de las imágenes no se muestren hasta que regeneres las miniaturas con <a href=\"%s\" target=\"_blank\">Regenerate Thumbnails </a>."
+
+#: classes/class-settings.php:161
+msgid "Uncheck this option if you have already registered sizes or want to save disk space."
+msgstr "Desmarca esta opción si ya has registrado tamaños o deseas ahorrar espacio en disco."
+
+#: classes/class-settings.php:154
+msgid "Register image sizes"
+msgstr "Registrar tamaños de imagen"
+
+#: classes/class-settings.php:103
+msgid "Images"
+msgstr "Imágenes"
+
+#: classes/class-vc-extend.php:301
+msgid "Fill"
+msgstr "Relleno"
+
+#: classes/class-vc-extend.php:208
+msgid "Self Hosted Video"
+msgstr "Vídeo autoalojado"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: advanced-backgrounds.php
+msgid "https://wpbackgrounds.com/?utm_source=wordpress.org&utm_medium=readme&utm_campaign=byline"
+msgstr "https://wpbackgrounds.com/?utm_source=wordpress.org&utm_medium=readme&utm_campaign=byline"
+
+#. Author of the plugin
+#: advanced-backgrounds.php
+msgid "Advanced WordPress Backgrounds Team"
+msgstr "Equipo de Advanced WordPress Backgrounds"
+
+#: assets/admin/gutenberg/block.json
+msgctxt "block description"
+msgid "Create sections with background image, parallax, video or solid color."
+msgstr "Crea secciones con imagen de fondo, efecto parallax, video o color sólido."
+
+#: classes/class-rest.php:71
+msgid "Sorry, you are not allowed to get the image for background."
+msgstr "Lo siento, no tienes permisos para obtener la imagen de fondo."
+
+#: assets/admin/gutenberg/block.json
+msgctxt "block keyword"
+msgid "parallax"
+msgstr "parallax"
+
+#: assets/admin/gutenberg/block.json
+msgctxt "block keyword"
+msgid "background"
+msgstr "fondo"
+
+#: assets/admin/gutenberg/block.json
+msgctxt "block keyword"
+msgid "awb"
+msgstr "awb"
+
+#: assets/admin/gutenberg/block.json
+msgctxt "block title"
+msgid "Background (AWB)"
+msgstr "Fondo (AWB)"
+
+#: vendors/class-settings-api.php:407
+msgid "Choose Image"
+msgstr "Elegir imagen"
+
+#: vendors/class-settings-api.php:386
+msgid "Choose File"
+msgstr "Elegir el archivo"
+
+#: classes/class-settings.php:180
+msgid "Advanced WordPress Backgrounds Settings"
+msgstr "Ajustes avanzados de fondos de WordPress"
+
+#: classes/class-settings.php:136
+msgid "Disable video"
+msgstr "Desactivar vídeo"
+
+#: classes/class-settings.php:120
+msgid "Disable parallax"
+msgstr "Desactivar parallax"
+
+#: classes/class-settings.php:83
+msgid "AWB"
+msgstr "AWB"
+
+#: classes/class-settings.php:82
+msgid "AWB Settings"
+msgstr "Ajustes de AWB"
+
+#. Description of the plugin
+#: advanced-backgrounds.php
+msgid "Parallax, Video, Images Backgrounds"
+msgstr "Parallax, vídeo, fondos de imágenes"
+
+#: classes/class-vc-extend.php:643
+msgid "milliseconds"
+msgstr "milisegundos"
+
+#: classes/class-vc-extend.php:627
+msgid "pixels"
+msgstr "píxeles"
+
+#: classes/class-vc-extend.php:626
+msgid "Size"
+msgstr "Tamaño"
+
+#: classes/class-vc-extend.php:611
+msgid "Enable"
+msgstr "Activar"
+
+#: classes/class-vc-extend.php:598
+msgid "Mouse Parallax"
+msgstr "Parallax de ratón"
+
+#: classes/class-vc-extend.php:566
+msgid "Provide number from -1.0 to 2.0"
+msgstr "Proporciona un número de -1.0 a 2.0"
+
+#: classes/class-vc-extend.php:565 classes/class-vc-extend.php:642
+msgid "Speed"
+msgstr "Velocidad"
+
+#: classes/class-vc-extend.php:549
+msgid "Opacity + Scale"
+msgstr "Opacidad + Escala"
+
+#: classes/class-vc-extend.php:548
+msgid "Opacity + Scroll"
+msgstr "Opacidad + Desplazamiento"
+
+#: classes/class-vc-extend.php:547
+msgid "Opacity"
+msgstr "Opacidad"
+
+#: classes/class-vc-extend.php:546
+msgid "Scale"
+msgstr "Escala"
+
+#: classes/class-vc-extend.php:545
+msgid "Scroll"
+msgstr "Scroll"
+
+#: classes/class-vc-extend.php:544
+msgid "Disabled"
+msgstr "Desactivado"
+
+#: classes/class-vc-extend.php:542
+msgid "Type"
+msgstr "Tipo"
+
+#: classes/class-vc-extend.php:529
+msgid "Parallax"
+msgstr "Parallax"
+
+#: classes/class-vc-extend.php:500
+msgid "Overlay Color"
+msgstr "Color de superposición"
+
+#: classes/class-vc-extend.php:470
+msgid "Play video also when not in viewport."
+msgstr "Reproducir vídeo también cuando no esté en la vista gráfica."
+
+#: classes/class-vc-extend.php:469
+msgid "Always play"
+msgstr "Reproducir siempre"
+
+#: classes/class-vc-extend.php:455
+msgid "End time in seconds when video will be ended"
+msgstr "Tiempo de finalización en segundos cuando se termina el vídeo"
+
+#: classes/class-vc-extend.php:454
+msgid "End Time"
+msgstr "Hora de finalización"
+
+#: classes/class-vc-extend.php:440
+msgid "Start time in seconds when video will be started (this value will be applied also after loop)"
+msgstr "Tiempo de inicio en segundos cuando se reproducirá el vídeo (este valor se aplicará también después del bucle)"
+
+#: classes/class-vc-extend.php:439
+msgid "Start Time"
+msgstr "Hora de inicio"
+
+#: classes/class-vc-extend.php:422 classes/class-vc-extend.php:581
+msgid "Enable on Mobile Devices"
+msgstr "Habilitar en dispositivos móviles"
+
+#: classes/class-vc-extend.php:408
+msgid "OGV"
+msgstr "OGV"
+
+#: classes/class-vc-extend.php:394
+msgid "WEBM"
+msgstr "WEBM"
+
+#: classes/class-vc-extend.php:380
+msgid "MP4"
+msgstr "MP4"
+
+#: classes/class-vc-extend.php:367
+msgid "Video"
+msgstr "Vídeo"
+
+#: classes/class-vc-extend.php:349
+msgid "Supported YouTube and Vimeo URLs"
+msgstr "Compatible con URLs de Youtube y Vimeo"
+
+#: classes/class-vc-extend.php:335
+msgid "Youtube / Vimeo"
+msgstr "Youtube / Vimeo"
+
+#: classes/class-vc-extend.php:317
+msgid "Image position. Example: 50% 50%"
+msgstr "Posición de la imagen. Ejemplo: 50% 50%"
+
+#: classes/class-vc-extend.php:302
+msgid "Pattern"
+msgstr "Patrón"
+
+#: classes/class-vc-extend.php:300
+msgid "Contain"
+msgstr "Contener"
+
+#: classes/class-vc-extend.php:299
+msgid "Cover"
+msgstr "Cubrir"
+
+#: classes/class-vc-extend.php:252
+msgid "Poster Image"
+msgstr "Imagen de póster"
+
+#: classes/class-vc-extend.php:222
+msgid "Stretch"
+msgstr "Expandido"
+
+#: classes/class-vc-extend.php:207
+msgid "YouTube / Vimeo"
+msgstr "YouTube / Vimeo"
+
+#: classes/class-vc-extend.php:206 classes/class-vc-extend.php:239
+msgid "Image"
+msgstr "Imagen"
+
+#: classes/class-vc-extend.php:205 classes/class-vc-extend.php:487
+msgid "Color"
+msgstr "Color"
+
+#: classes/class-vc-extend.php:204
+msgid "None"
+msgstr "Ninguno"
+
+#: classes/class-vc-extend.php:202
+msgid "Background Type"
+msgstr "Tipo de fondo"
+
+#: classes/class-vc-extend.php:179
+msgid "Design Options"
+msgstr "Opciones de diseño"
+
+#: classes/class-vc-extend.php:177
+msgid "CSS"
+msgstr "CSS"
+
+#: classes/class-vc-extend.php:160
+msgid "Custom Classes"
+msgstr "Clases personalizadas"
+
+#. Plugin Name of the plugin
+#: advanced-backgrounds.php classes/class-vc-extend.php:143
+msgid "Advanced WordPress Backgrounds"
+msgstr "Advanced WordPress Backgrounds"
+
+#: classes/class-settings.php:99 classes/class-vc-extend.php:140
+msgid "General"
+msgstr "General"
+
+#: classes/class-vc-extend.php:132 classes/class-vc-extend.php:135
+msgid "Background [AWB]"
+msgstr "Fondo [AWB]"
+
+#: classes/class-vc-extend.php:81
+msgid "&times;"
+msgstr "&times;"
+
+#: classes/class-vc-extend.php:81
+msgid "Select File"
+msgstr "Selecciona un archivo"
+
+#: classes/class-rest.php:145
+msgid "Image not found."
+msgstr "Imagen no encontrada."
+
+#: classes/class-rest.php:89
+msgid "Provide image ID."
+msgstr "Proporciona la ID de imagen."

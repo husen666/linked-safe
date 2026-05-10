@@ -1,0 +1,21 @@
+{
+  "name": "smart-post-show-gutenberg-shortcode-block",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start"
+  },
+  "dependencies": {
+    "@wordpress/block-editor": "^11.4.0",
+    "@wordpress/blocks": "^12.4.0",
+    "@wordpress/components": "^23.4.0",
+    "@wordpress/create-block": "^4.11.0",
+    "@wordpress/element": "^5.4.0",
+    "@wordpress/escape-html": "^2.27.0",
+    "@wordpress/i18n": "^4.27.0"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^25.4.0"
+  }
+}

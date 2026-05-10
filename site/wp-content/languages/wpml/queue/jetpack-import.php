@@ -1,0 +1,2 @@
+<?php
+return ['items'=>['Jetpack Import unique identifier for the term.'=>['urls'=>[],'names'=>[],'cmp'=>['jetpack',1]],'The parent category slug.'=>['urls'=>[],'names'=>[],'cmp'=>['jetpack',1]],'The name of the theme.'=>['urls'=>[],'names'=>[],'cmp'=>['jetpack',1]],'The date for the upload directory of the attachment.'=>['urls'=>[],'names'=>[],'cmp'=>['jetpack',1]],'Unique identifier for the attachment.'=>['urls'=>[],'names'=>[],'cmp'=>['jetpack',1]],'The parent menu slug.'=>['urls'=>[],'names'=>[],'cmp'=>['jetpack',1]]]];

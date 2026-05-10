@@ -1,0 +1,60 @@
+# Translation of Plugins - TikTok - Stable (latest release) in Dutch
+# This file is distributed under the same license as the Plugins - TikTok - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-06-05 21:20:34+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: nl\n"
+"Project-Id-Version: Plugins - TikTok - Stable (latest release)\n"
+
+#: Tiktokforbusiness.php:133
+msgid "Configure"
+msgstr "Configureren"
+
+#: admin/Tasks/Onboarding.php:34
+msgid "Reach 1 billion users worldwide by advertising your products on TikTok"
+msgstr "Bereik 1 miljard gebruikers wereldwijd door je producten op TikTok te adverteren"
+
+#: admin/tts/order_list.php:177
+msgid "Manage on seller center"
+msgstr "Beheer op verkoper centrum"
+
+#: admin/tts/order_list.php:65
+msgid "Update"
+msgstr "Update"
+
+#: admin/tts/order_list.php:59
+msgid "Channel"
+msgstr "Kanaal"
+
+#: admin/tts/order_detail.php:161
+msgid "TikTok Seller Center"
+msgstr "TikTok Verkoperscentrum"
+
+#: admin/tts/order_detail.php:160
+msgid "Orders generated from TikTok Shop can only be managed through"
+msgstr "Bestellingen gegenereerd vanuit TikTok Shop kunnen alleen worden beheerd via"
+
+#: admin/tts/order_detail.php:139
+msgid "TikTok orders cannot be modified via the normal interface. Modify on TikTok."
+msgstr "TikTok bestellingen kunnen niet worden gewijzigd via de normale interface. Wijzigen op TikTok."
+
+#. Description of the plugin
+#: tiktok-for-woocommerce.php
+msgid "With the TikTok x WooCommerce integration, it's easier than ever to unlock innovative social commerce features for your business to drive traffic and sales to a highly engaged community. With guided & simple setup prompts, you can sync your WooCommerce product catalog and promote it with custom ads without leaving your dashboard. Also, in just 1 click you can install the most-advanced TikTok pixel to unlock advanced visibility into detailed campaign performance tracking. Reach over 1 billion users, globally, and drive more e-commerce sales when you sell via one of the world’s most downloaded applications!"
+msgstr "Met de TikTok x WooCommerce integratie is het makkelijker dan ooit om innovatieve social commerce functies te ontsluiten voor je bedrijf om verkeer en verkoop te stimuleren naar een zeer betrokken community. Met behulp van 5 eenvoudige installatie-instructies kun je je WooCommerce productcatalogus synchroniseren en promoten met aangepaste advertenties zonder je dashboard te verlaten. Ook kun je met slechts 1 klik de meest geavanceerde TikTok pixel installeren om geavanceerd inzicht te krijgen in gedetailleerde campagneprestaties. Bereik meer dan 1 miljard gebruikers wereldwijd en stimuleer meer e-commerce verkopen wanneer je verkoopt via een van 's werelds meest gedownloade applicaties!"
+
+#. Plugin URI of the plugin
+#: tiktok-for-woocommerce.php
+msgid "https://wordpress.org/plugins/tiktok-for-business"
+msgstr "https://wordpress.org/plugins/tiktok-for-business"
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+#: tiktok-for-woocommerce.php
+msgid "TikTok"
+msgstr "TikTok"

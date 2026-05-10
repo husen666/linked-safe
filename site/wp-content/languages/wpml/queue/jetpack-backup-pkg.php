@@ -1,0 +1,2 @@
+<?php
+return ['items'=>['base64 encoded Backup Helper Script body.'=>['urls'=>[],'names'=>[],'cmp'=>['jetpack',1]],'Path to Backup Helper Script'=>['urls'=>[],'names'=>[],'cmp'=>['jetpack',1]],'Type of object to fetch from the database'=>['urls'=>[],'names'=>[],'cmp'=>['jetpack',1]],'ID of the database object to fetch'=>['urls'=>[],'names'=>[],'cmp'=>['jetpack',1]],'One or more option names to include in the backup'=>['urls'=>[],'names'=>[],'cmp'=>['jetpack',1]]]];

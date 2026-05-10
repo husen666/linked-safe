@@ -1,0 +1,2 @@
+<?php
+return ['items'=>['Color'=>['urls'=>[],'names'=>[],'cmp'=>['woo-variation-swatches',1]],'Choose a color'=>['urls'=>[],'names'=>[],'cmp'=>['woo-variation-swatches',1]],'Image'=>['urls'=>[],'names'=>[],'cmp'=>['woo-variation-swatches',1]],'Choose an Image'=>['urls'=>[],'names'=>[],'cmp'=>['woo-variation-swatches',1]],'Select'=>['urls'=>[],'names'=>[],'cmp'=>['woo-variation-swatches',1]],'Button'=>['urls'=>[],'names'=>[],'cmp'=>['woo-variation-swatches',1]],'Radio'=>['urls'=>[],'names'=>[],'cmp'=>['woo-variation-swatches',1]]]];
